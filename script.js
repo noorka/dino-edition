@@ -4,6 +4,7 @@ const bone = document.querySelectorAll(".bone")
 const biology = document.querySelectorAll(".biology")
 const allBone = document.getElementById("boneALL")
 const grayBlock = document.getElementById("opaque")
+const boneIcon = document.getElementById("bone-icon")
 
 
 function addEventListenerList(list, event, fn){
@@ -37,11 +38,14 @@ function handleClick(event){
 function handleCheckBox(slider, classNm, color){
     if (slider.checked) {
         colorChange(classNm, "white");
+        boneIcon.style.display = "hidden";
+        boneIcon.style.color = "yellow";
         removeEventListenerList(classNm,'click', handleClick);
       console.log('Checked');
     } else {
       console.log('Not checked');
       colorChange(classNm, color);
+      boneIcon.style.display = "hidden";
       addEventListenerList(classNm,'click', handleClick);
     }
 }
@@ -59,7 +63,7 @@ function loadJSON(callback) {   
 
     var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
-    xobj.open('GET', 'my_data.json', true); // Replace 'my_data' with the path to your file
+    xobj.open('GET', 'terms_list.json', true); // Replace 'my_data' with the path to your file
     xobj.onreadystatechange = function () {
           if (xobj.readyState == 4 && xobj.status == "200") {
             // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode

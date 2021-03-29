@@ -15,7 +15,7 @@ h2{
 main{
     background-color: lightgreen;
 }
-nav .container{
+nav{
     background-color: teal;
 }
 .biology{
@@ -32,13 +32,14 @@ nav .container{
 .coverpage{
     text-align: center;
     background-color: lightblue;
+    border-bottom: 5px solid orange;
 }
 .footnotes{
     font-size: small;
 }
 hr{
     border: none;
-    height: 120px;
+    border-bottom: 200px;
     background: green;
 }
 
@@ -58,6 +59,17 @@ hr{
 .close:hover{
     color: royalblue;
     cursor: pointer;
+}
+.article{
+    max-width: 75%;
+}
+#bone-icon{
+    background-color: yellow;
+    font-size: 10px;
+}
+#microscope-icon{
+    background-color: greenyellow;
+    font-size: 7px;
 }
 
 /* Got this slider from  https://www.w3schools.com/howto/howto_css_switch.asp */
