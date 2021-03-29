@@ -3,8 +3,9 @@ const closeBtn = document.querySelector(".btn-close")
 const bone = document.querySelectorAll(".bone")
 const biology = document.querySelectorAll(".biology")
 const allBone = document.getElementById("boneALL")
-const grayBlock = document.getElementById("opaque")
+const allBio = document.getElementById("bioALL")
 const boneIcon = document.getElementById("bone-icon")
+const bioIcon = document.getElementById("microscope-icon")
 
 
 function addEventListenerList(list, event, fn){
@@ -19,6 +20,11 @@ function colorChange(list, color){
     }
 
 }
+function iconChange(iconID, mycolor, iconStatus){
+    iconID.style.display = iconStatus;
+    iconID.style.color = mycolor;
+}
+
 function removeEventListenerList(list, event, fn){
     for(var i = 0, len = list.length; i < len; i++){
         list[i].removeEventListener(event, fn, false);
@@ -35,17 +41,16 @@ function handleClick(event){
         )
 }
 
-function handleCheckBox(slider, classNm, color){
+function handleCheckBox(slider, classNm, color, icon){
     if (slider.checked) {
         colorChange(classNm, "white");
-        boneIcon.style.display = "hidden";
-        boneIcon.style.color = "yellow";
+        iconChange(icon, "white", "hidden");
         removeEventListenerList(classNm,'click', handleClick);
       console.log('Checked');
     } else {
       console.log('Not checked');
       colorChange(classNm, color);
-      boneIcon.style.display = "hidden";
+      iconChange(icon, color, "inline-block");
       addEventListenerList(classNm,'click', handleClick);
     }
 }
@@ -79,5 +84,8 @@ addEventListenerList(biology,'click', handleClick);
 
 
 document.addEventListener('DOMContentLoaded', function () {
-     allBone.addEventListener('change', function(){handleCheckBox(allBone, bone, "yellow");});
+     allBone.addEventListener('change', function(){handleCheckBox(allBone, bone, "rgb(255,235,83)", boneIcon);});
+});
+document.addEventListener('DOMContentLoaded', function () {
+    allBone.addEventListener('change', function(){handleCheckBox(allBio, biology, "rgb(56, 212, 21)", bioIcon);});
 });
