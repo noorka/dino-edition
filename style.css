@@ -26,11 +26,11 @@ nav .col {
     align-content: center;
 }
 .biology{
-    background-color: rgb(56, 212, 21);
+    background-color: rgba(56, 212, 21, 0.4);
     cursor: pointer;
 }
 .bone{
-    background-color: rgb(255,235,83);
+    background-color: rgba(255,235,83, 0.4);
     cursor: pointer;
 }
 #article{
@@ -70,11 +70,11 @@ hr{
     max-width: 75%;
 }
 #bone-icon{
-    background-color: rgb(255,235,83);
+    background-color: rgba(255,235,83,0.4);
     font-size: 10px;
 }
 #microscope-icon{
-    background-color: rgb(56, 212, 21);
+    background-color: rgba(56, 212, 21, 0.4);
     font-size: 7px;
 }
 #home-icon{

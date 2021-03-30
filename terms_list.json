@@ -1,5 +1,5 @@
 {
-    "bone":{
+    "bone": {
         "id": {
             "term": "term",
             "defintion": "definition"
@@ -8,23 +8,23 @@
             "term": "Femur",
             "definition": "The single bone of the thigh (the upper part of the leg)."
         },
-        "fibula":{
+        "fibula": {
             "term": "Fibula",
-            "defintion":"One of the two bones that makes up the lower part of the leg. This is a thin bone that is towards the outside of the leg."
+            "defintion": "One of the two bones that makes up the lower part of the leg. This is a thin bone that is towards the outside of the leg."
         },
-        "tibia":{
+        "tibia": {
             "term": "Tibia",
-            "defintion":"One of the two bones that makes up the lower part of the leg. This is the bigger bone that is towards the middle of the body. Also known as the shinbone."
+            "defintion": "One of the two bones that makes up the lower part of the leg. This is the bigger bone that is towards the middle of the body. Also known as the shinbone."
         },
-        "humerus":{
+        "humerus": {
             "term": "Humerus",
-            "defintion":"The single bone of the upper arm (above your elbow)."
+            "defintion": "The single bone of the upper arm (above your elbow)."
         },
-        "ischium":{
+        "ischium": {
             "term": "Ischium",
-            "defintion":"The part of the hipbone on the backside and towards the bottom."
+            "defintion": "The part of the hipbone on the backside and towards the bottom."
         },
-        "pubis":{
+        "pubis": {
             "term": "Pubis",
             "defintion": "The front part of the hipbone."
         },
@@ -120,12 +120,12 @@
             "term": "Ungual",
             "defintion": "A special toe bone that ends in a hoof or a claw."
         },
-        "acetabulum":{
+        "acetabulum": {
             "term": "Acetabulum",
             "definition": "The cup-shaped area where the hip bone and the femur form a joint."
         }
     },
-    "biology":{
+    "biology": {
         "id": {
             "term": "term",
             "defintion": "definition"

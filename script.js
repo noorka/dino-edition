@@ -4,8 +4,9 @@ const bone = document.querySelectorAll(".bone")
 const biology = document.querySelectorAll(".biology")
 const allBone = document.getElementById("boneALL")
 const allBio = document.getElementById("bioALL")
-const boneIcon = document.getElementById("bone-icon")
+const boneIcon = document.querySelectorAll("fa-bone")
 const bioIcon = document.getElementById("microscope-icon")
+var glossary;
 
 
 function addEventListenerList(list, event, fn){
@@ -22,7 +23,7 @@ function colorChange(list, color){
 }
 function iconChange(iconID, mycolor, iconStatus){
     iconID.style.display = iconStatus;
-    iconID.style.color = mycolor;
+    iconID.style.backgroundColor = mycolor;
 }
 
 function removeEventListenerList(list, event, fn){
@@ -33,18 +34,18 @@ function removeEventListenerList(list, event, fn){
 }
 function handleClick(event){
     modal.style.display = "block";
-    grayBlock.style.display = "block";
-        closeBtn.addEventListener("click",() => {
-            modal.style.display = "none"
-            grayBlock.style.display = "none"
-        }
-        )
+    console.log(glossary[event.currentTarget.className][event.currentTarget.id]['definition']);
+    //console.log(glossary[this.currentTarget.className][this.currentTarget.id]['definition']);
+    //console.log(glossary[event.this.currentTarget.className][event.this.currentTarget.id]['definition']);
+    closeBtn.addEventListener("click",() => {
+        modal.style.display = "none"
+    });
 }
 
 function handleCheckBox(slider, classNm, color, icon){
     if (slider.checked) {
         colorChange(classNm, "white");
-        iconChange(icon, "white", "hidden");
+        iconChange(icon, "white", "none");
         removeEventListenerList(classNm,'click', handleClick);
       console.log('Checked');
     } else {
@@ -58,8 +59,8 @@ function handleCheckBox(slider, classNm, color, icon){
 function init() {
     loadJSON(function(response) {
      // Parse JSON string into object
-       var actual_JSON = JSON.parse(response);
-        alert(actual_JSON.menu.popup.menuitem[0].value);
+       glossary = JSON.parse(response);
+        //alert(glossary['bone']['femur']['definition']);
     });
 }
 init();
@@ -84,8 +85,8 @@ addEventListenerList(biology,'click', handleClick);
 
 
 document.addEventListener('DOMContentLoaded', function () {
-     allBone.addEventListener('change', function(){handleCheckBox(allBone, bone, "rgb(255,235,83)", boneIcon);});
+     allBone.addEventListener('change', function(){handleCheckBox(allBone, bone, "rgba(255,235,83,0.4)", boneIcon);});
 });
 document.addEventListener('DOMContentLoaded', function () {
-    allBone.addEventListener('change', function(){handleCheckBox(allBio, biology, "rgb(56, 212, 21)", bioIcon);});
+    allBio.addEventListener('change', function(){handleCheckBox(allBio, biology, "rgba(56, 212, 21,0.4)", bioIcon);});
 });
