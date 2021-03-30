@@ -2,7 +2,7 @@
     "bone": {
         "id": {
             "term": "term",
-            "defintion": "definition"
+            "definition": "definition"
         },
         "femur": {
             "term": "Femur",
@@ -10,115 +10,115 @@
         },
         "fibula": {
             "term": "Fibula",
-            "defintion": "One of the two bones that makes up the lower part of the leg. This is a thin bone that is towards the outside of the leg."
+            "definition": "One of the two bones that makes up the lower part of the leg. This is a thin bone that is towards the outside of the leg."
         },
         "tibia": {
             "term": "Tibia",
-            "defintion": "One of the two bones that makes up the lower part of the leg. This is the bigger bone that is towards the middle of the body. Also known as the shinbone."
+            "definition": "One of the two bones that makes up the lower part of the leg. This is the bigger bone that is towards the middle of the body. Also known as the shinbone."
         },
         "humerus": {
             "term": "Humerus",
-            "defintion": "The single bone of the upper arm (above your elbow)."
+            "definition": "The single bone of the upper arm (above your elbow)."
         },
         "ischium": {
             "term": "Ischium",
-            "defintion": "The part of the hipbone on the backside and towards the bottom."
+            "definition": "The part of the hipbone on the backside and towards the bottom."
         },
         "pubis": {
             "term": "Pubis",
-            "defintion": "The front part of the hipbone."
+            "definition": "The front part of the hipbone."
         },
         "vertabrae": {
             "term": "Vertabrae",
-            "defintion": "The individual bones that make of the neck and the back. They are part of the vertebral column also known as the spine. "
+            "definition": "The individual bones that make of the neck and the back. They are part of the vertebral column also known as the spine. "
         },
         "metatarsal": {
             "term": "Metatarsal",
-            "defintion": "One of the five long bones that make up the front half of a foot. In a human, these are the long bones in the toes."
+            "definition": "One of the five long bones that make up the front half of a foot. In a human, these are the long bones in the toes."
         },
         "radial_crest": {
             "term": "Radial Crest",
-            "defintion": "definition!!!"
+            "definition": "definition!!!"
         },
         "scapula": {
             "term": "Scapula",
-            "defintion": "The shoulder blade bone that is on the backside of the shoulder."
+            "definition": "The shoulder blade bone that is on the backside of the shoulder."
         },
         "ulna": {
             "term": "Ulna",
-            "defintion": "One of two bones that make up the forearm (lower part of the arm after the elbow joint). This in the bone that is towards the middle of the body. "
+            "definition": "One of two bones that make up the forearm (lower part of the arm after the elbow joint). This in the bone that is towards the middle of the body. "
         },
         "radius": {
             "term": "Radius",
-            "defintion": "One of two bones that make up the forearm (lower part of the arm after the elbow joint). This in the bone that is towards the outside of the body."
+            "definition": "One of two bones that make up the forearm (lower part of the arm after the elbow joint). This in the bone that is towards the outside of the body."
         },
         "fourth_trochanter": {
             "term": "Fourth Trochanter",
-            "defintion": "This is a piece of the femur bone that bumps out of the thigh bone about halfway down so that the retractor, or walking, muscles can attach to the leg. This bone bump helps the dinosaur move faster."
+            "definition": "This is a piece of the femur bone that bumps out of the thigh bone about halfway down so that the retractor, or walking, muscles can attach to the leg. This bone bump helps the dinosaur move faster."
         },
         "astragalus": {
             "term": "Astragalus",
-            "defintion": "A bone in the ankle that helps to move and connect the tarsal bones (the long bones in the foot). Also known as the talus. "
+            "definition": "A bone in the ankle that helps to move and connect the tarsal bones (the long bones in the foot). Also known as the talus. "
         },
         "pelvis": {
             "term": "Pelvis",
-            "defintion": "A group of bones made up of the right and left hips, the sacrum (a bone towards the bottom end of the spine), and the coccyx (the bone at the very end of the spine)."
+            "definition": "A group of bones made up of the right and left hips, the sacrum (a bone towards the bottom end of the spine), and the coccyx (the bone at the very end of the spine)."
         },
         "ilium": {
             "term": "Ilium",
-            "defintion": "The top part of the hipbone. It is connected to the pubic and the ischium. "
+            "definition": "The top part of the hipbone. It is connected to the pubic and the ischium. "
         },
         "spine": {
             "term": "Vertebral Column",
-            "defintion": "All the small bones (vertebrae) that go from your head to your tailbone. Also known as the spine."
+            "definition": "All the small bones (vertebrae) that go from your head to your tailbone. Also known as the spine."
         },
         "ribs": {
             "term": "Ribs",
-            "defintion": "The thin, curved bones that make up the chest and protect organs like the lungs and heart."
+            "definition": "The thin, curved bones that make up the chest and protect organs like the lungs and heart."
         },
         "sternal_elements": {
             "term": "Sternal Elements",
-            "defintion": "Part of the sternum bone. The sternum is the flat bone at the center, front of the chest.  "
+            "definition": "Part of the sternum bone. The sternum is the flat bone at the center, front of the chest.  "
         },
         "gastrolith": {
             "term": "Gastrolith",
-            "defintion": "A rock, usually swallowed by the dinosaur, to help breakdown tough food so it could be digested. "
+            "definition": "A rock, usually swallowed by the dinosaur, to help breakdown tough food so it could be digested. "
         },
         "prepubis": {
             "term": "Prepubis",
-            "defintion": "A bone only found in some dinosaurs that is in front of the pubic bone when the pubic bone moved farther back to be next to the ischium."
+            "definition": "A bone only found in some dinosaurs that is in front of the pubic bone when the pubic bone moved farther back to be next to the ischium."
         },
         "postpubis": {
             "term": "Postpubis",
-            "defintion": "A bone only found in some dinosaurs that is behind the pubic bone when the pubic bone moved farther back to be next to the ischium."
+            "definition": "A bone only found in some dinosaurs that is behind the pubic bone when the pubic bone moved farther back to be next to the ischium."
         },
         "obturator_foramen": {
             "term": "Obturator Foramen",
-            "defintion": "The large opening in the back of your hipbones between the pubis and the ischium."
+            "definition": "The large opening in the back of your hipbones between the pubis and the ischium."
         },
         "jaw": {
             "term": "Jaw",
-            "defintion": "A group of two bones that form the bones of the mouth. The mandible is the bone on the bottom and is the only bone in the head that can move. The maxilla is the upper bone."
+            "definition": "A group of two bones that form the bones of the mouth. The mandible is the bone on the bottom and is the only bone in the head that can move. The maxilla is the upper bone."
         },
         "ascending_process": {
             "term": "Ascending Process",
-            "defintion": "A flat, triangle shaped piece of bone that sits in front of the tibia. It helps the ankle joint in some types of dinosaurs."
+            "definition": "A flat, triangle shaped piece of bone that sits in front of the tibia. It helps the ankle joint in some types of dinosaurs."
         },
         "centrum": {
             "term": "Centrum",
-            "defintion": "The middle part of a vertebra that has two y-shaped bones, which come out of it. The centrum also has a hole in it where the spinal nerves are protected."
+            "definition": "The middle part of a vertebra that has two y-shaped bones, which come out of it. The centrum also has a hole in it where the spinal nerves are protected."
         },
         "median_sulcus": {
             "term": "Median Sulcus",
-            "defintion": "definition!!!"
+            "definition": "definition!!!"
         },
         "neural_spines": {
             "term": "Neural Spines",
-            "defintion": "Thin bones that are attached to the vertebral column or spine. They can form a hump or sail on the backs of animals."
+            "definition": "Thin bones that are attached to the vertebral column or spine. They can form a hump or sail on the backs of animals."
         },
         "ungual": {
             "term": "Ungual",
-            "defintion": "A special toe bone that ends in a hoof or a claw."
+            "definition": "A special toe bone that ends in a hoof or a claw."
         },
         "acetabulum": {
             "term": "Acetabulum",
@@ -128,115 +128,115 @@
     "biology": {
         "id": {
             "term": "term",
-            "defintion": "definition"
+            "definition": "definition"
         },
         "bilateral_symmetry": {
             "term": "Bilateral Symmetry",
-            "defintion": "Symmetry is when something can be cut in half and the two halves look like mirror images of each other. Bilateral symmetry means that if you cut something in half down the middle the two sides will be mirror images of each other. For example if you drew a line down the middle of your face you would see that you have one eye, a half a nose, and a half a mouth on each side of the line."
+            "definition": "Symmetry is when something can be cut in half and the two halves look like mirror images of each other. Bilateral symmetry means that if you cut something in half down the middle the two sides will be mirror images of each other. For example if you drew a line down the middle of your face you would see that you have one eye, a half a nose, and a half a mouth on each side of the line."
         },
         "convex": {
             "term": "Convex",
-            "defintion": "Something that is curved or rounded outward, like a pyramid. It is the opposite of concave."
+            "definition": "Something that is curved or rounded outward, like a pyramid. It is the opposite of concave."
         },
         "proximal": {
             "term": "Proximal",
-            "defintion": "On a limb, the direction toward the main part of the body where the limb connects. For example your shoulder joint is on the proximal end of your arm. The opposite of distal."
+            "definition": "On a limb, the direction toward the main part of the body where the limb connects. For example your shoulder joint is on the proximal end of your arm. The opposite of distal."
         },
         "distal": {
             "term": "Distal",
-            "defintion": "On a limb, the direction away from the main part of the body towards the end of the limb. For example your wrist is on the distal end of your arm. The opposite of proximal."
+            "definition": "On a limb, the direction away from the main part of the body towards the end of the limb. For example your wrist is on the distal end of your arm. The opposite of proximal."
         },
         "hindlimb": {
             "term": "Hindlimb",
-            "defintion": "The limb (like an arm or a leg) that is towards the backside of a four footed animal. For example, on a dog or a cat the hindlimbs are the legs near the tail."
+            "definition": "The limb (like an arm or a leg) that is towards the backside of a four footed animal. For example, on a dog or a cat the hindlimbs are the legs near the tail."
         },
         "digits": {
             "term": "Digits",
-            "defintion": "These are the smallest moveable parts at the ends of limbs. On humans these are your fingers and toes."
+            "definition": "These are the smallest moveable parts at the ends of limbs. On humans these are your fingers and toes."
         },
         "anterior": {
             "term": "Anterior",
-            "defintion": "The front half of a body, also known as ventral. It is the opposite of posterior. "
+            "definition": "The front half of a body, also known as ventral. It is the opposite of posterior. "
         },
         "posterior": {
             "term": "Posterior",
-            "defintion": "The back half of the body, also known as dorsal. It is the opposite of anterior."
+            "definition": "The back half of the body, also known as dorsal. It is the opposite of anterior."
         },
         "concave": {
             "term": "Concave",
-            "defintion": "Something that is curved or rounded inward, like a bowl. It is the opposite of convex."
+            "definition": "Something that is curved or rounded inward, like a bowl. It is the opposite of convex."
         },
         "sacral": {
             "term": "Sacral",
-            "defintion": "The area near the sacrum. The sacrum is a bone towards the bottom end of the spine near the pelvis."
+            "definition": "The area near the sacrum. The sacrum is a bone towards the bottom end of the spine near the pelvis."
         },
         "caudal": {
             "term": "Cudal",
-            "defintion": "Towards the lower half of a body also called inferior. On a human the caudal half of the body starts at the hips and goes to the floor. It is the opposite of cranial."
+            "definition": "Towards the lower half of a body also called inferior. On a human the caudal half of the body starts at the hips and goes to the floor. It is the opposite of cranial."
         },
         "presacral": {
             "term": "Presacral",
-            "defintion": "Bones that are before the sacrum bone. They are usually vertebrae. "
+            "definition": "Bones that are before the sacrum bone. They are usually vertebrae. "
         },
         "transverse_diameter": {
             "term": "Transverse Diameter",
-            "defintion": "The length across a circle that goes through the center point of an item that has been cut in half to expose that circle. For example how a bone is cut in half and measured."
+            "definition": "The length across a circle that goes through the center point of an item that has been cut in half to expose that circle. For example how a bone is cut in half and measured."
         },
         "cross_section": {
             "term": "Cross-Section",
-            "defintion": "definition!!!"
+            "definition": "definition!!!"
         },
         "bifurcate": {
             "term": "Bifurcate",
-            "defintion": "To divide something into two branches or parts."
+            "definition": "To divide something into two branches or parts."
         },
         "diameter": {
             "term": "Diameter",
-            "defintion": "The length across a circle that goes through the center point."
+            "definition": "The length across a circle that goes through the center point."
         },
         "dilute_hydrochloric": {
             "term": "Dilute Hydrochloric Acid",
-            "defintion": "Hydrochloric acid is a very strong acid often used for dissolving organic material. When it is diluted, a scientist has added water or another chemical to make the acid weaker and less able to dissolve things."
+            "definition": "Hydrochloric acid is a very strong acid often used for dissolving organic material. When it is diluted, a scientist has added water or another chemical to make the acid weaker and less able to dissolve things."
         },
         "herbivorous": {
             "term": "Herbivorous",
-            "defintion": "An animal that eats exclusively plant materials. "
+            "definition": "An animal that eats exclusively plant materials. "
         },
         "carnivorous": {
             "term": "Carnivorous",
-            "defintion": "An animal that eats exclusively meat."
+            "definition": "An animal that eats exclusively meat."
         },
         "jurassic": {
             "term": "Jurassic",
-            "defintion": "A period in the history of the earth 201.3 million to 145 million years ago. During this time the supercontinent of Pangaea split and there was a lot of volcanic activity. This is one of the main periods when dinosaurs dominated the earth. It is the second part of the Mesozoic Era. "
+            "definition": "A period in the history of the earth 201.3 million to 145 million years ago. During this time the supercontinent of Pangaea split and there was a lot of volcanic activity. This is one of the main periods when dinosaurs dominated the earth. It is the second part of the Mesozoic Era. "
         },
         "triassic": {
             "term": "Triassic",
-            "defintion": "A period in the history of the earth 252 million to 201 million years ago. During this time the supercontinent of Pangaea was beginning to shift. This period came after a mass extinction and was the beginning of major dinosaur life. It is the first part of the Mesozoic Era."
+            "definition": "A period in the history of the earth 252 million to 201 million years ago. During this time the supercontinent of Pangaea was beginning to shift. This period came after a mass extinction and was the beginning of major dinosaur life. It is the first part of the Mesozoic Era."
         },
         "bipedalism": {
             "term": "bipedalism",
-            "defintion": "The ability for an animal to walk on two legs instead of four or more. Humans are bipedal animals."
+            "definition": "The ability for an animal to walk on two legs instead of four or more. Humans are bipedal animals."
         },
         "rapid_locomotion": {
             "term": "Rapid Locomotion",
-            "defintion": "Very fast movement, probably running."
+            "definition": "Very fast movement, probably running."
         },
         "climatic_conditions": {
             "term": "Climatic Conditions",
-            "defintion": "definition!!!"
+            "definition": "definition!!!"
         },
         "semi-arid": {
             "term": "Semi-Arid",
-            "defintion": "An area that has a somewhat dry climate."
+            "definition": "An area that has a somewhat dry climate."
         },
         "floodplain": {
             "term": "Floodplain",
-            "defintion": "The flat area surrounding a river or a stream that will become flooded with water if the river level rises due to rain or other event."
+            "definition": "The flat area surrounding a river or a stream that will become flooded with water if the river level rises due to rain or other event."
         },
         "deposition": {
             "term": "Deposition",
-            "defintion": "Depositing or placing an item in a new location, usually by an outside force."
+            "definition": "Depositing or placing an item in a new location, usually by an outside force."
         }
     }
 }

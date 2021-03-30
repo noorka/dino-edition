@@ -4,7 +4,7 @@ const bone = document.querySelectorAll(".bone")
 const biology = document.querySelectorAll(".biology")
 const allBone = document.getElementById("boneALL")
 const allBio = document.getElementById("bioALL")
-const boneIcon = document.querySelectorAll("fa-bone")
+const boneIcon = document.getElementById("bone-icon")
 const bioIcon = document.getElementById("microscope-icon")
 var glossary;
 
@@ -15,15 +15,15 @@ function addEventListenerList(list, event, fn){
     }
 
 }
-function colorChange(list, color){
+function colorChange(list, color, myStatus){
     for(var i = 0, len = list.length; i < len; i++){
         list[i].style.backgroundColor = color;
+        list[i].getElementsByTagName("i")[0].style.display = myStatus;
     }
 
 }
-function iconChange(iconID, mycolor, iconStatus){
+function iconChange(iconID, iconStatus){
     iconID.style.display = iconStatus;
-    iconID.style.backgroundColor = mycolor;
 }
 
 function removeEventListenerList(list, event, fn){
@@ -34,25 +34,29 @@ function removeEventListenerList(list, event, fn){
 }
 function handleClick(event){
     modal.style.display = "block";
-    console.log(glossary[event.currentTarget.className][event.currentTarget.id]['definition']);
-    //console.log(glossary[this.currentTarget.className][this.currentTarget.id]['definition']);
-    //console.log(glossary[event.this.currentTarget.className][event.this.currentTarget.id]['definition']);
+    var myClass = event.currentTarget.className;
+    var myID = event.currentTarget.id;
+    modal.getElementsByClassName("modal-title")[0].innerHTML = glossary[myClass][myID]["term"];
+    modal.getElementsByClassName("modal-body")[0].innerHTML = glossary[myClass][myID]["definition"];
+    //alert(glossary[myClass][myID]["definition"]);
+
+
     closeBtn.addEventListener("click",() => {
         modal.style.display = "none"
     });
 }
 
-function handleCheckBox(slider, classNm, color, icon){
+function handleCheckBox(slider, classNm, color){
     if (slider.checked) {
-        colorChange(classNm, "white");
-        iconChange(icon, "white", "none");
         removeEventListenerList(classNm,'click', handleClick);
-      console.log('Checked');
+        colorChange(classNm, "white", "none");
+        //iconChange(icon, "none");
+        console.log('Checked');
     } else {
-      console.log('Not checked');
-      colorChange(classNm, color);
-      iconChange(icon, color, "inline-block");
-      addEventListenerList(classNm,'click', handleClick);
+        addEventListenerList(classNm,'click', handleClick);
+        console.log('Not checked');
+        colorChange(classNm, color,"inline-block");
+        //iconChange(icon, "inline-block");
     }
 }
 
@@ -85,8 +89,8 @@ addEventListenerList(biology,'click', handleClick);
 
 
 document.addEventListener('DOMContentLoaded', function () {
-     allBone.addEventListener('change', function(){handleCheckBox(allBone, bone, "rgba(255,235,83,0.4)", boneIcon);});
+     allBone.addEventListener('change', function(){handleCheckBox(allBone, bone, "rgba(255,235,83,0.4)");});
 });
 document.addEventListener('DOMContentLoaded', function () {
-    allBio.addEventListener('change', function(){handleCheckBox(allBio, biology, "rgba(56, 212, 21,0.4)", bioIcon);});
+    allBio.addEventListener('change', function(){handleCheckBox(allBio, biology, "rgba(56, 212, 21,0.4)");});
 });

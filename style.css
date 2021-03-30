@@ -15,9 +15,7 @@ h2{
 main{
     background-color: rgb(112, 191, 88);
 }
-#nav-bar{
-    max-width: 75%;
-}
+
 nav .row{
     background-color: rgb(148, 146, 147);
     height: 50px;
@@ -70,11 +68,11 @@ hr{
     max-width: 75%;
 }
 #bone-icon{
-    background-color: rgba(255,235,83,0.4);
+    /*background-color: rgba(255,235,83,0.4);*/
     font-size: 10px;
 }
 #microscope-icon{
-    background-color: rgba(56, 212, 21, 0.4);
+    /*background-color: rgba(56, 212, 21, 0.4);*/
     font-size: 7px;
 }
 #home-icon{
