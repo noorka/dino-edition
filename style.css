@@ -15,7 +15,10 @@ h2{
 main{
     background-color: rgb(112, 191, 88);
 }
-
+img{
+    height: 30%;
+    width: 30%;
+}
 nav .row{
     background-color: rgb(148, 146, 147);
     height: 50px;
