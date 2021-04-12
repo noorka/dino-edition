@@ -6,7 +6,13 @@ const allBone = document.getElementById("boneALL")
 const allBio = document.getElementById("bioALL")
 const boneIcon = document.getElementById("bone-icon")
 const bioIcon = document.getElementById("microscope-icon")
+const pageList = document.querySelectorAll(".docPage")
+const nextBtn = document.getElementById("next")
+const prevBtn = document.getElementById("prev")
 var glossary;
+var currentPage = 0;
+var navbar = document.getElementById("navigation")
+var sticky = navbar.offsetTop;
 
 
 function addEventListenerList(list, event, fn){
@@ -82,15 +88,43 @@ function loadJSON(callback) {   
     };
     xobj.send(null);  
 }
+function stickyNav() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
 
 addEventListenerList(bone,'click', handleClick);
 addEventListenerList(biology,'click', handleClick);
 
 
-
+window.onscroll = function() {stickyNav()};
 document.addEventListener('DOMContentLoaded', function () {
      allBone.addEventListener('change', function(){handleCheckBox(allBone, bone, "rgba(255,235,83,0.4)");});
 });
 document.addEventListener('DOMContentLoaded', function () {
     allBio.addEventListener('change', function(){handleCheckBox(allBio, biology, "rgba(56, 212, 21,0.4)");});
+});
+
+prevBtn.addEventListener('click', function() {
+    if(currentPage != 0){
+        pageList[currentPage].style.display = "none";
+        currentPage = currentPage - 1;
+        pageList[currentPage].style.display = "flex";
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+});
+nextBtn.addEventListener('click', function() {
+    console.log("out the if");
+    if(currentPage < 12){
+        console.log("in the if");
+        pageList[currentPage].style.display = "none";
+        currentPage = currentPage + 1;
+        pageList[currentPage].style.display = "flex";
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
 });

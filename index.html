@@ -3,16 +3,16 @@
 
 <head>
 	<title>Dino Capstone</title>
-	
+
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-	<nav class="container">
-		<section class="row align-items-center" id="nav-bar">
+	<nav class="container" id="navigation">
+		<section class="row" id="nav-bar">
 			<section class="col"><i class="fas fa-home fa-3x" id="home-icon"></i></section>
 			<section class="col">
 				<label>Bone Terms</label>
@@ -30,12 +30,18 @@
 			</section>
 		</section>
 	</nav>
-	<main>
-		<!-- outer cover of this staple bound copy of the article, there are some hand written notes likely the catalog numbers integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"-->
+	<main class="content">
+		<!-- outer cover of this staple bound copy of the article, there are some hand written notes likely the catalog numbers -->
 		<div class="container" id="article">
-			<div class="row align-items-center">
+			<div class="row docPage" id="pageStart">
 				<div class="col-sm">
-					<div class="coverpage">
+					<figure>
+						<img src="/images/mtholyoke_Talbot_cover.jpg" alt="Dust cover for article, light blue paper.">
+					</figure>
+
+				</div>
+				<div class="col-md">
+					<div class="coverpage" id="cover">
 						[FROM THE AMERICAN JOURNAL OF SCIENCE, VOL. XXXI. JUNE, 1911.]<br>
 						<!-- decorative line, centered -->
 						<hr>
@@ -49,540 +55,1082 @@
 
 						(With Plate IV.)
 					</div>
-
-					<!-- page break -->
-					<hr>
-
-					<!-- three photographs, largest one is on left taking up 2/3 of printable space and noted as figure one, two smaller photos (figs 2 and 3) are stacked on top of one another and take up 1/3 of printable space -->
-					<!-- figure captions -->
-
-					<figure>
-						<img src="/images/mtholyoke_Talbot_plateIV_fig1.jpg" alt="Photograph of full Podokesurus skeleton in rock.">
-						<figcaption>FIG. 1. <i>Podokesaurus holyokensis.</i> x 2/3</figcaption>
-					</figure>
-					<figure>
-						<img src="/images/mtholyoke_Talbot_plateIV_fig2.jpg" alt="Photograph of Podokesurus pelvic in rock.">
-						<figcaption>FIG. 2. Pelvic bones. x 3/2</figcaption>
-					</figure>
-					<figure>
-						<img src="/images/mtholyoke_Talbot_plateIV_fig3.jpg" alt="Photograph of Podokesurus skull bones in rock.">
-						<figcaption>FIG. 3. Skull bones (?). x 4/3</figcaption>
-					</figure>
-
-					<!-- page break -->
-					<hr class="pagebreak">
-
-
-					<h1>
-						THE<br>
-						AMERICAN JOURNAL OF SCIENCE<br>
-						[FOURTH SERIES.]<br>
-						<!-- decorative line -->
-						ART. XXXVIII.—
-						<!-- italic--> <i>Podokesaurus<a id="ln1" href="#fn1">*</a> holyokensis, a New Dino-<br>
-							saur from the Triassic of the Connecticut Valley;<a id="ln2" href="#fn2">†</a> </i>
-						<!-- end italic --> by<br>
-						MIGNON TALBOT. (With Plate IV.)<br>
-					</h1>
-
-					<!-- centered and italic -->
-					<h2>Introduction.</h2>
-					<p>IN a bowlder of Triassic sandstone which the glacier carried two or three miles, possibly, and
-						deposited
-						not far from the site of Mount Holyoke College, the writer recently found an excellently
-						preserved
-						skeleton of a small dinosaur the length of whose body is about 18<sup>cm</sup>. The bowlder was
-						split
-						along the plane in which the fossil lies and part of the bones are in one half and part in the
-						other.
-						These bones are hollow and the whole framework is very light and delicate.</p>
-					<p>As the fossil lies in the rock, most of the bones are in position, or nearly so, with the
-						exception of
-						the skull and the tail. A detached tail that probably belongs to this specimen lies a few
-						centimeters
-						from the rest of the skeleton and near it are three very thing bones that may belong to the
-						skull (fig,
-						3, A, B, and C; Pl. IV, fig.3). Two of these bones are <mark class="biology" id="bilateral_symmetry">bilaterally symmetrical<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> and one of them
-						is
-						broadly convex with a well-defined <mark class="bone" id="median_sulcus">median sulcus<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. They are all more or less embedded in the rock
-						and
-						cannot be described until the rock
-
-						<!-- footnotes -->
-					<section class="footnotes">
-
-						<p>
-							<a id="fn1" href="#ln1">*</a> From
-							<!-- this is in greek script that is also italic --> = swift-footed—an epithet commonly used
-							in
-							speaking of Achilles.
-						</p>
-						<p>
-							<a id="fn2" href="#ln2">†</a> A paper giving a preliminary description of this fossil was
-							read at
-							the meeting of the Paleontological Society in Pittsburgh, in December, 1910. In that paper
-							the
-							conclusion reached was that the animal was a <mark class="biology" id="herbivorous">herbivorous<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> dinosaur : but that work of
-							developing.
-							which is being done at Yale University, has shown that the bone that was then described as
-							the right
-							<mark class="bone" id="fibula">fibula<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, displaced, cannot be a <mark class="bone"
-								id="fibula">fibula<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, and, notwithstanding its great length, it is described in
-							this paper as the <mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, in position. The bone that was thought then to be two bones, the
-							<mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
-							lying over the <mark class="bone" id="ischium">ischium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, is probably the <mark
-								class="bone" id="ischium">ischium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> with a well-developed ridge as is seen in
-							Compsognathus. There would be, therefore, no bone to call the <mark class="bone" id="postpubis">postpubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> and the form must be
-							removed
-							from the <mark class="biology" id="herbivorous">herbivorous<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> group of dinosaurs.
-						</p>
-					</section>
-
-
-					<!-- new page 470 -->
-					<hr>
-
-					<h3>FIG.1:</h3>
-					<figure>
-						<!-- figure of the bones, sideways -->
-						<!-- text of the figure caption also sideways -->
-						<img src="/images/mtholyoke_Talbot_470_fig1.jpg" alt="drawing of full Podokesurus skeleton as laying in rock.">
-						<figcaption>
-							FIG.1. Outline drawing of the fossil as it lies in the rock. X2/3
-							A. <mark class="bone" id="astragalus">Astragalus<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> (?). A.E. <mark class="bone" id="ribs">Abdominal ribs<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. D. <mark class="biology" id="digits">Digit<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>. H. <mark class="bone"
-								id="humerus">Humerus<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. Il. <mark class="bone" id="ilium">Ilium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> Is. <mark class="bone"
-								id="ischium">Ischium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. L.F. Left
-							<mark class="bone" id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.
-							L. Fib. Left <mark class="bone" id="fibula">fibula<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. L. Met. Left <mark class="bone"
-								id="metatarsal">metatarsals<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. L. T. Left <mark class="bone"
-								id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. N.S. <mark class="bone" id="neural_spines">Neural spine<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. P. <mark class="bone" id="pubis">Pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. R. <mark class="bone" id="rib">Rib<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
-							R.F. Right
-							<mark class="bone" id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. R. Met. Right <mark class="bone"
-								id="metatarsal">metatarsals<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. R. T. Right <mark class="bone"
-								id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. S. Shoulder elements. T. <mark class="bone" id="fourth_trochanter">Fourth trochanter<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. U.
-							<mark class="bone" id="ungual">Ungual<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.
-							V. <mark class="bone" id="vertebrae">Vertebra<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.
-						</figcaption>
-					</figure>
-					<!-- a single line of the text -->
-					is removed. The other bones are better exposed and will be described below. </p>
-
-					<!-- page break 471 -->
-					<hr>
-
-					<p>In the description which follows these features are to be noted: Light construction—hollow bones;
-						slender, straight <mark class="bone" id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>; position of fourth trochanter;
-						position of
-						<mark class="bone" id="fibula">fibula<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, lying close to the <mark class="bone"
-							id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>;
-						great length of <mark class="bone" id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> and <mark class="bone"
-							id="metatarsal">metatarsals<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>; small <mark class="bone" id="humerus">humerus<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>;
-						narrow shaft of <mark class="bone" id="ischium">ischium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>; great length of <mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></markc>;
-						length of <mark class="bone" id="vertebrae">vertebrae<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.
-					</p>
-					<p><i>Forelimb.—</i>The <mark class="bone" id="humerus">humerus<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> (fig. 1, H.)<a id="ln3"
-							href="#fn3">*</a> is a very delicately shaped bone,
-						42<sup>mm</sup> long (not quite half the length of the <mark class="bone"
-							id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>), slender
-						and well rounded, with high
-						<mark class="bone" id="radial_crest">radial crest<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. The <mark class="biology" id="proximal">proximal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end shows a slight constriction above the crest and below the bone
-						tapers
-						gradually to a <mark class="biology" id="diameter">diameter<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> of 3<sup>mm</sup> at the <mark class="biology" id="distal">distal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end. Measured through the crest it is
-						8<sup>mm</sup>. There is a trace of the impression of the <mark class="bone" id="radius">radius<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> or <mark class="bone" id="ulna">ulna<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> just below the <mark class="biology" id="distal">distal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>
-						end.</p>
-					<p>In the <mark class="bone" id="scapula">scapular region<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is a broad, flat bone, lying vertically in the rock, but twisted on its
-						long axis
-						at a right angle, midway of its length (fig. 1, S.). This bone has a length, as shown, of
-						20<sup>mm</sup> and a width of at least 3<sup>mm</sup>. Lying near its <mark class="biology" id="proximal">proximal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end is another
-						flat
-						bone, 8<sup>mm</sup> long by 5<sup>mm</sup> wide.</p>
-					<p>These may be three separate bones, more or less firmly united
-						in the living animal. Further development is necessary, how-
-						ever, to bring out their outlines and their relation to each
-						other.</p>
-					<p><i><mark class="biology" id="hindlimb">Hindlimb<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>.—</i>The <mark class="bone" id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> (fig. 1, R. F. and L. F.) is
-						slender and nearly
-						straight with thin walls. The
-						bone is expanded on the back side at the <mark class="biology" class="distal">distal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end. The length is 86<sup>mm</sup> and the
-						<mark class="biology" id="diameter">diameter<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>,
-						just <mark class="biology" id="distal">distalwards<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> from the <mark class="bone" id="fourth_trochanter">fourth trochanter<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, is 6.5<sup>mm</sup>. The <mark class="bone" id="fourth_trochanter">fourth trochanter<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> (fig. 1,
-						T.) is
-						18<sup>mm</sup> long and about 2<sup>mm</sup> high and is situated just beyond the middle of the
-						shaft,
-						toward the <mark class="biology" id="distal">distal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end.</p>
-					<p>Only the <mark class="biology" id="proximal">proximal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end of the right <mark class="bone" id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> (fig. 1, R. T.) is
-						exposed and there the bone is well rounded.
-						This, however, may be only a small part of the <mark class="biology" id="proximal">proximal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end, as the bone is lengthwise, part of
-						the bone
-						lying in each half of the bowlder. It is an almost straight, narrow shaft with the surface lying
-						uppermost bent slightly at the <mark class="biology" id="proximal">proximal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end, due, probably, to the expansion of the bone. In the
-						position in which it lies, the bone is of nearly the same <mark class="biology" id="diameter">diameter<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> throughout, about
-						7<sup>mm</sup>. Its
-						length is 104<sup>mm</sup>. Lying close against the <mark class="bone" id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
-						and of almost equal length is the extremely
-						thin <mark class="bone" id="fibula">fibula<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> (fig. 1, L. Fib.).</p>
-					<p>There is a small, <mark class="biology" id="convex">convex<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> bone, 4<sup>mm</sup> by 6<sup>mm</sup>, lying where the
-
-					<section class="footnotes">
-						<p><a id="fn3" href="#ln3">*</a> The first four text-figures have been drawn by Miss Clara Gould
-							Mark of
-							Mount Holyoke College. For the privilege of using the restorations of Professor Marsh I am
-							indebted
-							to the editor of this Journal. The photographs were taken by Mr. Asa S. Kinney of Mount
-							Holyoke
-							College.</p>
-					</section>
-
-					<!-- page break 472 -->
-					<hr>
-
-					right <mark class="bone" id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> and <mark class="bone"
-						id="metatarsal">metatarsals<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> should meet, that may be the <mark class="bone" id="astragalus">astragalus<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> (fig. 1, A.). It
-					shows no sign of an
-					<mark class="bone" id="ascending_process">ascending process<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.</p>
-					<p>Two of the right <mark class="bone" id="metatarsal">metatarsals<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> (fig. 1, R. Met.) lie in
-						position. Their <mark class="biology" id="diameter">diameter<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> is 2.5<sup>mm</sup> and
-						3.5<sup>mm</sup>, respectively, along the shaft, but at the <mark class="biology" id="distal">distal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end there is an expansion to
-						a
-						<mark class="biology" id="diameter">diameter<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> of 5<sup>mm</sup>. In position, at the <mark class="biology" id="distal">distal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end of the left <mark class="bone"
-							id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> there is one <mark class="bone" id="metatarsal">metatarsal<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
-						(fig. 1, L. Met.) slightly curved and 65<sup>mm</sup> long. Alongside are traces of a second.
-						One of the
-						<mark class="biology" id="digits">digits<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> (fig. 1, D.), whose divisions are indistinctly shown, lies between two <mark class="bone"
-							id="ribs">ribs<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>not far from the
-						right <mark class="bone" id="metatarsal">metatarsals<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. It is 20<sup>mm</sup> long and
-						1.5<sup>mm</sup> in <mark class="biology" id="diameter">diameter<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> and is terminated by an
-						<mark class="bone" id="ungual">ungual<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> 7<sup>mm</sup> long. <mark class="biology" id="cross-section">Cross sections<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> of two bones near this one look like <mark class="bone" id="ungual">unguals<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.</p>
-					<p><i><mark class="bone" id="pelvis">Pelvis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.—</i>The <mark class="bone" id="pelvis">pelvic
-							bones<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> are partly covered by the right <mark class="bone" id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> and
-						their outline
-						is not distinct.
-						What is probably the
-						<!-- figure image -->
-						<!-- centered figure title -->
-					<h3>FIG. 2.</h3>
-					<!-- figure caption -->
-					<figure>
-						<img src="/images/mtholyoke_Talbot_472_fig2.jpg" alt="Drawing of Podokesurus pelvis bones.">
-						<figcaption>
-							FIG 2. <mark class="bone" id="pelvis">Pelvic bones<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> X 1.
-							F. <mark class="bone" id="femur">Femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. Il. <mark class="bone" id="ilium">Ilium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. Is. <mark class="bone"
-								id="ischium">Ischium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. P. <mark class="bone" id="pubis">Pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.
-						</figcaption>
-					</figure>
-					<!-- end of figure -->
-					<mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> (fig. 1 and fig 2. P.) is a remarkably long, thin bone, 95<sup>mm</sup> long, expanded at the
-					<mark class="biology" id="distal">distal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>
-					end. The bone seems to be in position and make an angle of about 40° with the long of the <mark class="bone" id="spine">vertebral column<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.
-					Its length is comparable with that of a new, undescribed form from northern Württemberg.</p>
-					<p>The <mark class="bone" id="ischium">ischium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> (Pl. IV, fig. 2; fig. 1 and fig. 2, Is.) is
-						well rounded, <mark class="biology" id="anterior">anteriorly<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>, and has a shaft
-						4<sup>mm</sup> wide of which a length of 30<sup>mm</sup> is exposed.<a id="ln4"
-							href="#ln4">*</a> The
-						<mark class="biology" id="distal">distal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end is embedded in the rock.
-
-						<!-- footnotes -->
-					<section class="footnotes">
-						<p><a id="fn4" href="#ln4">*</a> The illustrations seem to indicate the presence of two bones
-							but this
-							may be due to the presence of a ridge on the <mark class="bone" id="ischium">ischium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>,
-							and is seen in Compsognathus.</p>
-					</section>
-
-					<!-- page break 473-->
-					<hr>
-					The contact with the <mark class="bone" id="ilium">ilium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> and the <mark class="bone" id="acetabulum">acetabular<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> edge is obscurely visible.</p>
-					<p>There is a bone running <mark class="biology" id="posterior">posteriorly<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> from the head of the right <mark class="bone"
-							id="femur">femur<i class="fas fa-bone" id="bone-icon"></i></mark> which may be the <mark class="biology" id="posterior">posterior<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> process
-						of the <mark class="bone" id="ilium">ilium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> (fig. 1 and fig. 2, Il.), the <mark class="biology" id="anterior">anterior<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> process being covered by the <mark
-							class="bone" id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. This <mark class="biology" id="posterior">posterior<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>
-						extension can be traced indistinctly for 27<sup>mm</sup> and either points upward or continues
-						the line
-						of the <mark class="biology" id="posterior">posterior<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> part of the <mark class="bone" id="spine">vertebral column<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.</p>
-					<p><i><mark class="bone" id="vertebrae">Vertebrae<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.—</i>Of the <mark class="bone"
-							id="vertebrae">vertebrae<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> there are visible seventeen <mark class="biology" id="presacral">presacral<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> (fig. 1, V.) and
-						thirteen <mark class="biology" id="caudal">caudal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>
-						(fig. 3, V.), all very light
-						<!-- start figure image -->
-						<!-- figure image title -->
-					<h3>FIG. 3.</h3>
-					<!-- image -->
-					<img src="/images/mtholyoke_Talbot_473_fig3.jpg" alt="Drawing of Podokesurus spine and possible skull fragments.">
-					<figure>
-						<figcaption>
-							FIG. 3. Caudal <mark class="bone" id="vertebrae">vertebrae<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> and skill bones (?). X 1/2
-							A, B, C. Bones of the skull (?). D, E, F, G, V. Caudal <mark class="bone"
-								id="vertebrae">vertebrae<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.</figcaption>
-					</figure>
-					and hollow, and some, at least, slightly <mark class="biology" id="concave">concave<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> at each end. The presacral <mark class="bone"
-						id="vertebrae">vertebrae<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> are slender, the
-					measurements for the sixth <mark class="biology" id="presacral">presacral<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> being 4<sup>mm</sup> from end to end. A strong, gracefully
-					curved
-					<mark class="bone" id="neural_spines">neural spine<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> (fig. 1, N. S.) rises from the <mark class="bone" id="vertebrae">vertebrae<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> in
-					the <mark class="biology" id="posterior">dorsal region<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>, about 10<sup>mm</sup> high and
-					12<sup>mm</sup> long at the others and those at the <mark class="biology" id="anterior">anterior<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end of the column, much stronger. One
-					of the
-					latter measures 10<sup>mm</sup> at the end and the <mark class="biology" id="diameter">diameter<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> through the middle of the <mark class="bone" id="centrum">centrum<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is
-					only a
-					little less. They are not so long, however, measuring only from 12<sup>mm</sup> to 13<sup>mm</sup>.
-					One of
-					these <mark class="bone" id="vertebrae">vertebrae<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is shown in <mark class="biology" id="cross-section">cross section<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> at a thin edge of
-					the rock and has a <mark class="biology" id="transverse_diameter">transverse diameter<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> through
-					<!-- page break 474 -->
-					<hr>
-
-
-					the cavity of the <mark class="bone" id="centrum">centrum<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> of 4<sup>mm</sup> while the height of the cavity is 5.5<sup>mm</sup>
-					(fig.4).</p>
-					<p>The caudal <mark class="bone" id="vertebrae">vertebrae<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> are only a little expanded at the
-						ends and are very slender throughout their length.
-						A typical one is 17<sup>mm</sup> long with a <mark class="biology" id="diameter">diameter<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> of 4mm at the ends. The <mark class="bone" id="neural_spines">neural spines<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, if
-						such
-						they are (fig. 3, D.—G.), are of different shapes. These caudal <mark class="bone"
-							id="vertebrae">vertebrae<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> are so nearly of a size, one
-						with another, that
-						<!-- figure image on the left side of the page bordered by text -->
-						<!-- figure title -->
-					<h3>FIG. 4.</h3>
-					<!-- figure image -->
-					<!-- figure caption -->
-					<figure>
-						<img src="/images/mtholyoke_Talbot_474_fig4.jpg" alt="Drawing of Podokesurus hollow vertebrae.">
-						<figcaption>
-							FIG. 4. <mark class="biology" id="cross-section">Cross
-								section<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> of cervical
-							vertebra showing hollow construction. X2. C. Cavity of centrum. N. Neural canal.
-						</figcaption>
-					</figure>
-					<!-- end figure image -->
-					there is no apparent tapering of the series and it is not clear which is the <mark class="biology" id="proximal">proximal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end of the
-					tail nor is it possible, as yet, to estimate its length.</p>
-					<p><i><mark class="bone" id="ribs">Ribs<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.—</i>Quite a number of <mark class="bone" id="rib">ribs<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>(fig. 1, R.) are visible,
-						all very slender and hollow, but the
-						<mark class="biology" id="proximal">proximal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end is not exposed save in one instance where the bone is so broken that the outline is
-						not distinct. Near this <mark class="biology" id="proximal">proximal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end, however, the bone is somewhat <mark class="biology" id="concave">concave<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> and expanded as if it
-						might be
-						<mark class="biology" id="bifurcate">bifurcate<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> (fig.
-						1, R
-						<!-- there's a lil tic mark that I am not sure how to replicate -->). The largest <mark class="bone" id="ribs">rib<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> uncovered
-						is
-						52<sup>mm</sup> long and 2<sup>mm</sup> wide toward the <mark class="biology" id="proximal">proximal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end, while in no place does the
-						thickness seem to be more than 1<sup>mm</sup>. The most <mark class="biology" id="anterior">anterior<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> of the cervical <mark
-							class="bone" id="vertebrae">vertebrae<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> preserved
-						have long <mark class="bone" id="ribs">ribs<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. These are on another piece of the bowlder and are not figured.
-					</p>
-					<p>Just <mark class="biology" id="anterior">anterior<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> to the <mark class="biology" id="distal">distal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end of the <mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> there is a small cluster of gently curved abdominal
-						<mark class="bone" id="ribs">ribs<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
-						(fig. 1, A. R.), exceedingly slender and dove-tailed as they lie in the rock, the position due,
-						probably, to slipping. This mass of interlacing <mark class="bone" id="rib">ribs<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>covers a
-						space of 40<sup>mm</sup> by
-						23<sup>mm</sup>. There are at lease eleven of these <mark class="bone" id="rib">ribs<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>on
-						each side of the median line, the largest of
-						which is 18<sup>mm</sup> long and so small in <mark class="biology" id="diameter">diameter<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> that the bone looks like a mere thread in
-						the
-						rock. Slender as are these <mark class="bone" id="ribs">ribs<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, they seem to be hollow.</p>
-					<p><i><mark class="bone" id="sternal_elements">Sternal element<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> (?).—</i>In the center of this mass of abdominal <mark class="bone"
-							id="rib">ribs<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>is a small body that responds to
-						<mark class="biology" id="dilute_hydrochloric">dilute hydrochloric acid<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>, as do all of the bones. The part exposed measures 5<sup>mm</sup> by
-						3<sup>mm</sup>. This may be one of the <mark class="bone" id="sternal_elements">sternal elements<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> displaced.</p>
-					<p><i><mark class="bone" id="gastrolith">Gastrolith<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.—</i>Lying 10<sup>mm</sup> away, and still among these <mark class="bone" id="ribs">ribs<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, is a small piece of
-						quartz, a
-						flat, well-rounded pebble, 1<sup>mm</sup> thick and 10<sup>mm</sup> long. The width exposed is
-						4<sup>mm</sup>, but more of the pebble is embedded in the rock. There are no other pieces of
-						quartz
-						larger than a grain of sand visible in the bowlder, and considering this fact, considering,
-						also, its
-						smooth, polished surface<a id="ln5" href="#fn5">*</a> and its position, the writer concludes
-						that this
-						must
-
-					<section class="footnotes">
-						<p><a id="fn5" href="#ln5">*</a> Dinosaurian Gastroliths, G.R. Wieland, Science N. S., xxiii,
-							pp.
-							819-821</p>
-					</section>
-
-					<!-- page break 475 -->
-					<hr>
-
-
-
-					be a <mark class="bone" id="gastrolith">gastrolith<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. This would seemingly be the first record of <mark class="bone" id="gastrolith">gastroliths<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> found with <mark class="biology" id="carnivorous">carnivorous<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>
-					dinosaurian remains.</p>
-
-					<!-- centered italic section title -->
-					<h2>Comparison with other forms.</h2>
-					<p><i><mark class="biology" class="herbivorous">Herbivorous<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> dinosaurs.—</i>Compared with <i>Nanosaurus agilis</i> Marsh, the oldest known
-						predentate
-						dinosaur, the following points may be noted:<a id="ln6" href="#fn6">*</a> <i>Points of
-							similarity—</i>
-						The <mark class="bone" id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is shorter than the <mark class="bone"
-							id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, the <mark class="bone" id="rib">ribs<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>are very delicate, and
-						the <mark class="biology" id="posterior">posterior<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> extension of the
-						<mark class="bone" id="ilium">ilium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> seems to have the same position. <i>Points of dissimilarity—</i> In this form the <mark
-							class="bone" id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is most
-						slender and is nearly straight, while in <i>Nanosaurus</i> it is distinctly curved. In this
-						form, too,
-						the <mark class="bone" id="fourth_trochanter">fourth trochanter<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is much nearer the <mark class="biology" id="distal">distal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end of the <mark class="bone"
-							id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, the <mark class="bone" id="metatarsal">metatarsals<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> are more
-						slender and
-						probably longer, the <mark class="bone" id="humerus">humerus<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is relatively much smaller,
-						the shaft of the <mark class="bone" id="ischium">ischium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is narrower, the <mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
-						has a long <mark class="biology" id="anterior">anterior<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> extension, and there is no <mark class="bone" id="postpubis">postpubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.</p>
-					<p>In <i>Laosaurus consors</i> Marsh,<a id="ln7" href="#fn7">†</a> from the <mark class="biology" id="jurassic">Jurassic<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>, the <mark
-							class="bone" id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is much
-						curved and is more nearly equal in length to the <mark class="bone" id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>,
-						while the <mark class="bone" id="fourth_trochanter">fourth trochanter<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is far up toward the
-						<mark class="biology" id="proximal">proximal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end; the <mark class="bone" id="fibula">fibula<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is more bent, curving away from
-						the <mark class="bone" id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>; the <mark class="bone"
-							id="metatarsal">metatarsals<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> are very much
-						shorter; the <mark class="bone" id="prepubis">prepubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is short and <mark class="bone" id="humerus">humerus<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> as this form
-						has but the shape is not the same.</p>
-					<p><i>Hypsilophodon foxii</i> Huxley (fig. 5), of the Wealden, England. Here we noticed that the
-						main points of difference are in the length and position of the <mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, and the presence of a <mark class="bone" id="postpubis">postpubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> in
-						<i>Hypsilophoson.</i> In <i>Hypsilophodon</i> the <mark class="bone" id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is
-						curved, but
-						the <mark class="bone" id="fourth_trochanter">fourth trochanter<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is situated
-						more nearly as this one is, toward the <mark class="biology" id="distal">distal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end; the <mark class="bone"
-							id="humerus">humerus<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is stouter and larger in every way with
-						the <mark class="bone" id="radial_crest">radial crest<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> much farther from the <mark class="biology" id="proximal">proximal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end; the <mark class="bone"
-							id="metatarsal">metatarsals<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> are much shorter; the <mark class="bone"
-							id="ribs">ribs<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>are very
-						much stronger; the <mark class="bone" id="neural_spines">neural spines<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> are of an entirely different shape.
-					</p>
-					<p><i><mark class="biology" id="carnivorous">Carnivorous<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> dinosaurs.—Anchisaurus colurus</i> Marsh,<a id="ln8" href="#fn8">‡</a> a very
-						slender,
-						long-limbed <mark class="biology" id="carnivorous">carnivore<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> from the same Connecticut valley <mark class="biology" id="triassic">Triassic<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>, with which this form seems to
-						compare
-						quite closely in general outline, shows the following differences. There is a decided difference
-						in the
-						relative lengths of the <mark class="bone" id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> and <mark class="bone"
-							id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, the <mark class="bone" id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> of the large form
-						being much longer than the <mark class="bone" id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.
-						Marsh points out that the long <mark class="bone" id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is found in the
-						larger animals of both <mark class="biology" id="carnivorous">carnivorous<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> and <mark class="biology" id="herbivorous">herbivorus<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>
-						types, while the smaller birdlike forms of both types have the <mark class="bone"
-							id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> longer than the <mark class="bone" id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.<a
-							id="ln9" href="#fn9">§</a> This small form certainly
-
-						<!-- footnotes -->
-					<section class="footnotes">
-						<p><a id="fn6" href="#ln6">*</a> Neubeschreibung des Originals von Nanosaurus agilis Marsh, F.
-							von Huene
-							and R. S. Lull, fig. 1, p. 135.</p>
-						<p><a id="fn7" href="#ln7">†</a>Dinosaurs of North America, O.C. Marsh, pl. LVII.</p>
-						<p><a id="fn8" href="#ln8">‡</a>Ibid., pl. IV.</p>
-						<p><a id="fn9" href="#ln9">§</a>Ibid., p. 201.</p>
-					</section>
-
-					<!-- page break 476 -->
-					<hr>
-
-					<!-- full page figure image -->
-					<!-- image heading -->
-					<h3>FIG. 5.</h3>
-					<!-- image caption -->
-					<figure>
-						<img src="/images/mtholyoke_Talbot_476_fig5.jpg" alt="Drawing of dinosaur Hysilophondon foxii.">
-						<figcaption>FIG. 5. Restoration of <i>Hysilophodon foxii</i> Huxley, after Marsh x 1/8 natural
-							size.
-						</figcaption>
-					</figure>
-
-					<!-- page break 477 -->
-					<hr>
-
-					helps to confirm his observation. In <i>Anchisaurus</i>, the <mark class="bone"
-						id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is much bent
-					and the <mark class="bone" id="fourth_trochanter">fourth trochanter<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is
-					high up toward the <mark class="biology" id="proximal">proximal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end; and all the limb bones are much stronger. The <mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> of
-					<i>Anchisaurus</i>
-					is shorter, and runs at almost a right angle to the <mark class="bone" id="spine">vertebral column<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>; nor is it expanded at its
-					<mark class="biology" id="distal">distal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end,
-					as it is in this form. On the other hand, there is a general similarity in the size of the
-					corresponding
-					<mark class="bone" id="vertebrae">vertebrae<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, though those of the <mark class="biology" id="caudal">caudal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> region of
-					<i>Anchisaurus</i> are not quite so long and slender.</p>
-					<p><i>Compsognathus longipes</i> Wagner (fig. 6), from the <mark class="biology" id="jurassic">Jurassic<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> of Bavaria, corresponds quite
-						closely
-						with this form in length and general proportions of the limbs, in the shape of some of the
-						<mark class="bone" id="neural_spines">neural spines<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, especially those just anterior to the <mark class="bone" id="scapula">scapular region<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, and in the general shape of the
-						<mark class="bone" id="ischium">ischium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.
-						The <mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> of <i>Compsognathus</i> is much shorter, proportionally, however, makes a larger angle
-						with
-						the <mark class="bone" id="spine">vertebral column<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, and is much more expanded at its <mark class="biology" id="distal">distal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end. The Shaft of the <mark
-							class="bone" id="ischium">ischium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is not so
-						slender not so uniform in width.
-					</p>
-
-					<!-- centered, italicized section title -->
-					<h2>Classification.</h2>
-					<p>No attempt at a definite placing of this fossil will be made in this paper, but certain
-						conclusions
-						reached by the foregoing study will be stated, The fossil is interpreted as that of a
-						carnivorous
-						dinosaur because of the length, shape, and position of the <mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> and the absence of a <mark class="bone" id="postpubis">postpubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.
-						Since
-						no <mark class="bone" id="jaw">jaw<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> has been found and there is no proof of the presence or absence of an <mark class="bone" id="ascending_process">ascending process<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
-						from the
-						<mark class="bone" id="astragalus">astragalus<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, the determination of its position among the dinosaurs depends on the character of
-						the <mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
-						and the presence or absence of a <mark class="bone" id="postpubis">postpubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. The position and length of the <mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> are more nearly
-						like
-						those of the <mark class="biology" id="carnivorous">carnivores<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> than those of the <mark class="biology" id="herbivorous">herbivores<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>, and there seems to be no <mark class="bone" id="postpubis">postpubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. The
-						<mark class="bone" id="ischium">ischium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is
-						shaped somewhat like the bone in <i>Scelidosaurus harrisoni</i> Owen, that von Huene describes
-						as the
-						<mark class="bone" id="ischium">ischium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, with a query, however, stating that it may be
-						the <mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, but not accepting that interpretation
-						because he can find no <mark class="bone" id="obturator_foramen">obturator foramen<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.<a id="ln10" href="#fn10">*</a>
-					</p>
-					<p>The short, slender <mark class="bone" id="humerus">humerus<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> and the long, straight <mark class="biology" id="hindlimb">hindlimb<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>
-						bones, together with the well-developed <mark class="bone" id="fourth_trochanter">fourth trochanter<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, are indicative of <mark class="biology" id="bipedalism">bipedalism<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>. the length of the <mark class="bone"
-							id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, much greater than that of the <mark class="bone"
-							id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>,
-						the extreme length of the <mark class="bone" id="metatarsal">metatarsals<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, over half that
-						of the <mark class="bone" id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, and the very light construction of
-						the skeleton, indicate <mark class="biology" id="rapid_locomotion">rapid locomotion<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>, which Lull uses as an indication of adaptation to
-						<mark class="biology">clumatic conditions<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>, arguing that this animal must have been able to travel fast and
-
-						<!-- footnotes -->
-					<section class="footnotes"><a id="fn10" href="#ln10">*</a>
-						<p>Ueber die Dinosaurier der Aussereuipaeischen Trias, F. von Huene, p. 57.</p>
-					</section>
-
-					<!-- page break 478 -->
-					<hr>
-
-					<!-- full page figure image -->
-					<!-- image heading -->
-					<h3>FIG. 6.</h3>
-					<!-- image caption -->
-					<figure>
-						<img src="/images/mtholyoke_Talbot_478_fig6.jpg" alt="Drawing of dinosaur Compsognathus longipes.">
-						<figcaption>FIG. 6. Restoration of <i>Compsognathus longipes</i> Wagner, after Marsh x 1/4
-							natural size.
-						</figcaption>
-					</figure>
-
-					<!-- page break 479-->
-					<hr>
-
-
-					far for water in a <mark class="biology" id="semi-arid">semi-arid<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> climate. In support of this interpretation, also may be added barrel's
-					suggestion that the rock in which the fossil is embedded indicates deposition on a <mark class="biology" id="floodplain">floodplain<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> in a
-					<mark class="biology" id="semi-arid">semi-arid<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>
-					region. It is significant that many of these Connecticut valley sandstones that have dinosaur
-					footprints
-					have also raindrop impressions.</p>
-					<p>Through the courtesy of professor Schuchert the specimen has been send to the Peabody Museum of
-						Yale
-						University for development, where further study will be given it by Professor Lull, to whom my
-						thanks
-						are due for many suggestions in regard to the interpretation of this fossil.</p>
-					<p>Mount Holyoke College, April, 1911</p>
 				</div>
 			</div>
+				<!-- page break -->
+				<div class="row docPage">
+					<div class="col-sm">
+						<figure>
+							<img src="/images/mtholyoke_Talbot_plateIV.jpg" alt="Additional page with three pictures of the fosil in stone.">
+						</figure>
+	
+					</div>
+					<div class="col-sm" id="plate4">
+						<hr>
+	
+						<!-- three photographs, largest one is on left taking up 2/3 of printable space and noted as figure one, two smaller photos (figs 2 and 3) are stacked on top of one another and take up 1/3 of printable space -->
+						<!-- figure captions -->
+						<table>
+							<tr>
+								<td>
+									<figure>
+										<img src="/images/mtholyoke_Talbot_plateIV_fig1.jpg"
+											alt="Photograph of full Podokesurus skeleton in rock." class="figImg">
+										<figcaption>FIG. 1. <i>Podokesaurus holyokensis.</i> x 2/3</figcaption>
+									</figure>
+								</td>
+								<td>
+									<figure>
+										<img src="/images/mtholyoke_Talbot_plateIV_fig2.jpg"
+											alt="Photograph of Podokesurus pelvic in rock." class="figImg">
+										<figcaption>FIG. 2. Pelvic bones. x 3/2</figcaption>
+									</figure>
+								</td>
+							</tr>
+							<tr>
+								<td><p>   </p></td>
+								<td>
+									<figure>
+										<img src="/images/mtholyoke_Talbot_plateIV_fig3.jpg"
+											alt="Photograph of Podokesurus skull bones in rock." class="figImg">
+										<figcaption>FIG. 3. Skull bones (?). x 4/3</figcaption>
+									</figure>
+								</td>
+							</tr>
+						</table>
+	
+						<!-- page break -->
+					</div>
+				</div>
+
+				<div class="row docPage">
+					<div class="col-sm">
+						<figure>
+							<img src="/images/mtholyoke_Talbot_469.jpg" alt="First page of article with heading.">
+						</figure>
+	
+					</div>
+					<div class="col-sm" id="page469">
+						<h1>
+							THE<br>
+							AMERICAN JOURNAL OF SCIENCE<br>
+							[FOURTH SERIES.]<br>
+							<!-- decorative line -->
+							ART. XXXVIII.—
+							<!-- italic--> <i>Podokesaurus<a id="ln1" href="#fn1">*</a> holyokensis, a New Dino-<br>
+								saur from the Triassic of the Connecticut Valley;<a id="ln2" href="#fn2">†</a> </i>
+							<!-- end italic --> by<br>
+							MIGNON TALBOT. (With Plate IV.)<br>
+						</h1>
+	
+						<!-- centered and italic -->
+						<h2>Introduction.</h2>
+						<p>IN a bowlder of Triassic sandstone which the glacier carried two or three miles, possibly,
+							and
+							deposited
+							not far from the site of Mount Holyoke College, the writer recently found an excellently
+							preserved
+							skeleton of a small dinosaur the length of whose body is about 18<sup>cm</sup>. The bowlder
+							was
+							split
+							along the plane in which the fossil lies and part of the bones are in one half and part in
+							the
+							other.
+							These bones are hollow and the whole framework is very light and delicate.</p>
+						<p>As the fossil lies in the rock, most of the bones are in position, or nearly so, with the
+							exception of
+							the skull and the tail. A detached tail that probably belongs to this specimen lies a few
+							centimeters
+							from the rest of the skeleton and near it are three very thing bones that may belong to the
+							skull (fig,
+							3, A, B, and C; Pl. IV, fig.3). Two of these bones are <mark class="biology"
+								id="bilateral_symmetry">bilaterally symmetrical<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> and one of them
+							is
+							broadly convex with a well-defined <mark class="bone" id="median_sulcus">median
+								sulcus<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. They are all more or
+							less embedded in the rock
+							and
+							cannot be described until the rock
+	
+							<!-- footnotes -->
+						<section class="footnotes">
+	
+							<p>
+								<a id="fn1" href="#ln1">*</a> From
+								<!-- this is in greek script that is also italic --> = swift-footed—an epithet commonly
+								used
+								in
+								speaking of Achilles.
+							</p>
+							<p>
+								<a id="fn2" href="#ln2">†</a> A paper giving a preliminary description of this fossil
+								was
+								read at
+								the meeting of the Paleontological Society in Pittsburgh, in December, 1910. In that
+								paper
+								the
+								conclusion reached was that the animal was a <mark class="biology"
+									id="herbivorous">herbivorous<sup><i class="fas fa-microscope"
+											id=“microscope-icon”></i></sup></mark> dinosaur : but that work of
+								developing.
+								which is being done at Yale University, has shown that the bone that was then described
+								as
+								the right
+								<mark class="bone" id="fibula">fibula<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>, displaced, cannot be a <mark class="bone"
+									id="fibula">fibula<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, and,
+								notwithstanding its great length, it is described in
+								this paper as the <mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>, in position. The bone that was thought
+								then to be two bones, the
+								<mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>
+								lying over the <mark class="bone" id="ischium">ischium<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>, is probably the <mark class="bone"
+									id="ischium">ischium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
+								with a well-developed ridge as is seen in
+								Compsognathus. There would be, therefore, no bone to call the <mark class="bone"
+									id="postpubis">postpubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
+								and the form must be
+								removed
+								from the <mark class="biology" id="herbivorous">herbivorous<sup><i class="fas fa-microscope"
+											id=“microscope-icon”></i></sup></mark> group of
+								dinosaurs.
+							</p>
+						</section>
+	
+					</div>
+				</div>
+
+				<!-- new page 470 -->
+				<div class="row docPage">
+					<div class="col-sm">
+						<figure>
+							<img src="/images/mtholyoke_Talbot_470.jpg" alt="Second page of article.">
+						</figure>
+	
+					</div>
+					<div class="col-sm" id="page470">
+	
+						<h3>FIG.1:</h3>
+						<figure>
+							<!-- figure of the bones, sideways -->
+							<!-- text of the figure caption also sideways -->
+							<img src="/images/mtholyoke_Talbot_470_fig1.jpg"
+								alt="drawing of full Podokesurus skeleton as laying in rock." class="figImg">
+							<figcaption>
+								FIG.1. Outline drawing of the fossil as it lies in the rock. X2/3
+								A. <mark class="bone" id="astragalus">Astragalus<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark> (?). A.E. <mark class="bone"
+									id="ribs">Abdominal ribs<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. D.
+								<mark class="biology" id="digits">Digit<sup><i class="fas fa-microscope"
+											id=“microscope-icon”></i></sup></mark>. H. <mark class="bone"
+									id="humerus">Humerus<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.
+								Il. <mark class="bone" id="ilium">Ilium<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark> Is. <mark class="bone"
+									id="ischium">Ischium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.
+								L.F. Left
+								<mark class="bone" id="femur">femur<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>.
+								L. Fib. Left <mark class="bone" id="fibula">fibula<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>. L. Met. Left <mark class="bone"
+									id="metatarsal">metatarsals<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.
+								L. T. Left <mark class="bone" id="tibia">tibia<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>. N.S.
+								<mark class="bone" id="neural_spines">Neural spine<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>. P. <mark class="bone" id="pubis">Pubis<sup><i
+											class="fas fa-bone" id="bone-icon"></i></sup></mark>. R.
+								<mark class="bone" id="rib">Rib<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
+								R.F. Right
+								<mark class="bone" id="femur">femur<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>. R. Met. Right <mark class="bone"
+									id="metatarsal">metatarsals<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.
+								R. T. Right <mark class="bone" id="tibia">tibia<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>. S.
+								Shoulder elements. T. <mark class="bone" id="fourth_trochanter">Fourth trochanter<sup><i
+											class="fas fa-bone" id="bone-icon"></i></sup></mark>. U.
+								<mark class="bone" id="ungual">Ungual<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>.
+								V. <mark class="bone" id="vertebrae">Vertebra<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>.
+							</figcaption>
+						</figure>
+						<!-- a single line of the text -->
+						<p>is removed. The other bones are better exposed and will be described below. </p>
+	
+					</div>
+				</div>
+				<!-- page break 471 -->
+				<div class="row docPage">
+					<div class="col-sm">
+						<figure>
+							<img src="/images/mtholyoke_Talbot_471.jpg" alt="Third page of article.">
+						</figure>
+	
+					</div>
+					<div class="col-sm" id="page471">
+	
+	
+						<p>In the description which follows these features are to be noted: Light construction—hollow
+							bones;
+							slender, straight <mark class="bone" id="femur">femur<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>; position of fourth trochanter;
+							position of
+							<mark class="bone" id="fibula">fibula<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>, lying close to the <mark class="bone"
+								id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>;
+							great length of <mark class="bone" id="tibia">tibia<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> and <mark class="bone"
+								id="metatarsal">metatarsals<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>;
+							small <mark class="bone" id="humerus">humerus<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>;
+							narrow shaft of <mark class="bone" id="ischium">ischium<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>; great length of <mark class="bone"
+								id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></markc>;
+								length of <mark class="bone" id="vertebrae">vertebrae<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>.
+						</p>
+						<p><i>Forelimb.—</i>The <mark class="bone" id="humerus">humerus<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> (fig. 1, H.)<a id="ln3" href="#fn3">*</a> is a
+							very
+							delicately shaped bone,
+							42<sup>mm</sup> long (not quite half the length of the <mark class="bone"
+								id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>), slender
+							and well rounded, with high
+							<mark class="bone" id="radial_crest">radial crest<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>. The <mark class="biology"
+								id="proximal">proximal<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> end shows a slight constriction above the
+							crest and below the bone
+							tapers
+							gradually to a <mark class="biology" id="diameter">diameter<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> of 3<sup>mm</sup> at the <mark
+								class="biology" id="distal">distal<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> end. Measured through the crest it is
+							8<sup>mm</sup>. There is a trace of the impression of the <mark class="bone"
+								id="radius">radius<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> or <mark
+								class="bone" id="ulna">ulna<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
+							just
+							below the <mark class="biology" id="distal">distal<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark>
+							end.
+						</p>
+						<p>In the <mark class="bone" id="scapula">scapular region<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> is a broad, flat bone, lying vertically in the
+							rock, but twisted on its
+							long axis
+							at a right angle, midway of its length (fig. 1, S.). This bone has a length, as shown, of
+							20<sup>mm</sup> and a width of at least 3<sup>mm</sup>. Lying near its <mark class="biology"
+								id="proximal">proximal<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> end is another
+							flat
+							bone, 8<sup>mm</sup> long by 5<sup>mm</sup> wide.</p>
+						<p>These may be three separate bones, more or less firmly united
+							in the living animal. Further development is necessary, how-
+							ever, to bring out their outlines and their relation to each
+							other.</p>
+						<p><i><mark class="biology" id="hindlimb">Hindlimb<sup><i class="fas fa-microscope"
+											id=“microscope-icon”></i></sup></mark>.—</i>The <mark class="bone"
+								id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> (fig. 1, R.
+							F.
+							and L. F.) is
+							slender and nearly
+							straight with thin walls. The
+							bone is expanded on the back side at the <mark class="biology" class="distal">distal<sup><i
+										class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end. The length
+							is
+							86<sup>mm</sup> and the
+							<mark class="biology" id="diameter">diameter<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark>,
+							just <mark class="biology" id="distal">distalwards<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> from the <mark class="bone"
+								id="fourth_trochanter">fourth trochanter<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>, is 6.5<sup>mm</sup>. The <mark class="bone"
+								id="fourth_trochanter">fourth trochanter<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> (fig. 1,
+							T.) is
+							18<sup>mm</sup> long and about 2<sup>mm</sup> high and is situated just beyond the middle of
+							the
+							shaft,
+							toward the <mark class="biology" id="distal">distal<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> end.
+						</p>
+						<p>Only the <mark class="biology" id="proximal">proximal<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> end of the right <mark class="bone"
+								id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> (fig. 1, R.
+							T.)
+							is
+							exposed and there the bone is well rounded.
+							This, however, may be only a small part of the <mark class="biology"
+								id="proximal">proximal<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> end, as the bone is lengthwise, part of
+							the bone
+							lying in each half of the bowlder. It is an almost straight, narrow shaft with the surface
+							lying
+							uppermost bent slightly at the <mark class="biology" id="proximal">proximal<sup><i
+										class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end, due,
+							probably,
+							to the expansion of the bone. In the
+							position in which it lies, the bone is of nearly the same <mark class="biology"
+								id="diameter">diameter<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> throughout, about
+							7<sup>mm</sup>. Its
+							length is 104<sup>mm</sup>. Lying close against the <mark class="bone" id="tibia">tibia<sup><i
+										class="fas fa-bone" id="bone-icon"></i></sup></mark>
+							and of almost equal length is the extremely
+							thin <mark class="bone" id="fibula">fibula<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> (fig. 1, L. Fib.).</p>
+						<p>There is a small, <mark class="biology" id="convex">convex<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> bone, 4<sup>mm</sup> by 6<sup>mm</sup>,
+							lying
+							where the</p>
+	
+						<section class="footnotes">
+							<p><a id="fn3" href="#ln3">*</a> The first four text-figures have been drawn by Miss Clara
+								Gould
+								Mark of
+								Mount Holyoke College. For the privilege of using the restorations of Professor Marsh I
+								am
+								indebted
+								to the editor of this Journal. The photographs were taken by Mr. Asa S. Kinney of Mount
+								Holyoke
+								College.</p>
+						</section>
+					</div>
+				</div>
+
+				<!-- page break 472 -->
+
+				<div class="row docPage">
+					<div class="col-sm">
+						<figure>
+							<img src="/images/mtholyoke_Talbot_472.jpg" alt="Fourth page of article.">
+						</figure>
+	
+					</div>
+					<div class="col-sm" id="page472">
+						<p>right <mark class="bone" id="tibia">tibia<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> and <mark class="bone"
+								id="metatarsal">metatarsals<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
+							should
+							meet, that may be the <mark class="bone" id="astragalus">astragalus<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> (fig. 1, A.). It
+							shows no sign of an
+							<mark class="bone" id="ascending_process">ascending process<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>.
+						</p>
+						<p>Two of the right <mark class="bone" id="metatarsal">metatarsals<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> (fig. 1, R. Met.) lie in
+							position. Their <mark class="biology" id="diameter">diameter<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> is
+							2.5<sup>mm</sup> and
+							3.5<sup>mm</sup>, respectively, along the shaft, but at the <mark class="biology"
+								id="distal">distal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>
+							end there is an expansion to
+							a
+							<mark class="biology" id="diameter">diameter<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> of 5<sup>mm</sup>. In position, at the
+							<mark class="biology" id="distal">distal<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> end of the left <mark class="bone"
+								id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> there is
+							one
+							<mark class="bone" id="metatarsal">metatarsal<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>
+							(fig. 1, L. Met.) slightly curved and 65<sup>mm</sup> long. Alongside are traces of a
+							second.
+							One of the
+							<mark class="biology" id="digits">digits<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> (fig. 1, D.), whose divisions are
+							indistinctly shown, lies between two <mark class="bone" id="ribs">ribs<sup><i
+										class="fas fa-bone" id="bone-icon"></i></sup></mark>not far from the
+							right <mark class="bone" id="metatarsal">metatarsals<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>. It is 20<sup>mm</sup> long and
+							1.5<sup>mm</sup> in <mark class="biology" id="diameter">diameter<sup><i
+										class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> and is
+							terminated
+							by an
+							<mark class="bone" id="ungual">ungual<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> 7<sup>mm</sup> long. <mark class="biology"
+								id="cross-section">Cross sections<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> of two bones near this one look like
+							<mark class="bone" id="ungual">unguals<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>.
+						</p>
+						<p><i><mark class="bone" id="pelvis">Pelvis<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>.—</i>The <mark class="bone" id="pelvis">pelvic
+								bones<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> are partly covered by
+							the
+							right <mark class="bone" id="femur">femur<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> and
+							their outline
+							is not distinct.
+							What is probably the
+							<!-- figure image -->
+							<!-- centered figure title -->
+						<h3>FIG. 2.</h3>
+						<!-- figure caption -->
+						<figure>
+							<img src="/images/mtholyoke_Talbot_472_fig2.jpg" alt="Drawing of Podokesurus pelvis bones." class="figImg">
+							<figcaption>
+								FIG 2. <mark class="bone" id="pelvis">Pelvic bones<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark> X 1.
+								F. <mark class="bone" id="femur">Femur<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>. Il. <mark class="bone" id="ilium">Ilium<sup><i
+											class="fas fa-bone" id="bone-icon"></i></sup></mark>. Is.
+								<mark class="bone" id="ischium">Ischium<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>. P.
+								<mark class="bone" id="pubis">Pubis<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>.
+							</figcaption>
+						</figure>
+						<!-- end of figure -->
+						<mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
+						(fig. 1 and fig 2. P.) is a remarkably long, thin bone, 95<sup>mm</sup> long, expanded at the
+						<mark class="biology" id="distal">distal<sup><i class="fas fa-microscope"
+									id=“microscope-icon”></i></sup></mark>
+						end. The bone seems to be in position and make an angle of about 40° with the long of the <mark
+							class="bone" id="spine">vertebral column<sup><i class="fas fa-bone"
+									id="bone-icon"></i></sup></mark>.
+						Its length is comparable with that of a new, undescribed form from northern Württemberg.</p>
+						<p>The <mark class="bone" id="ischium">ischium<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> (Pl. IV, fig. 2; fig. 1 and fig. 2, Is.) is
+							well rounded, <mark class="biology" id="anterior">anteriorly<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark>, and has a
+							shaft
+							4<sup>mm</sup> wide of which a length of 30<sup>mm</sup> is exposed.<a id="ln4"
+								href="#ln4">*</a> The
+							<mark class="biology" id="distal">distal<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> end is embedded in the rock.
+	
+							<!-- footnotes -->
+						<section class="footnotes">
+							<p><a id="fn4" href="#ln4">*</a> The illustrations seem to indicate the presence of two
+								bones
+								but this
+								may be due to the presence of a ridge on the <mark class="bone" id="ischium">ischium<sup><i
+											class="fas fa-bone" id="bone-icon"></i></sup></mark>,
+								and is seen in Compsognathus.</p>
+						</section>
+					</div>
+				</div>
+
+				<!-- page break 473-->
+				<div class="row docPage">
+					<div class="col-sm">
+						<figure>
+							<img src="/images/mtholyoke_Talbot_473.jpg" alt="Fifth page of article.">
+						</figure>
+	
+					</div>
+					<div class="col-sm" id="page473">
+	
+						The contact with the <mark class="bone" id="ilium">ilium<sup><i class="fas fa-bone"
+									id="bone-icon"></i></sup></mark> and the <mark class="bone"
+							id="acetabulum">acetabular<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> edge
+						is
+						obscurely visible.</p>
+						<p>There is a bone running <mark class="biology" id="posterior">posteriorly<sup><i
+										class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> from the head
+							of
+							the right <mark class="bone" id="femur">femur<i class="fas fa-bone" id="bone-icon"></i></mark>
+							which may be the <mark class="biology" id="posterior">posterior<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> process
+							of the <mark class="bone" id="ilium">ilium<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> (fig. 1 and fig. 2, Il.), the <mark class="biology"
+								id="anterior">anterior<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> process being covered by the <mark
+								class="bone" id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.
+							This <mark class="biology" id="posterior">posterior<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark>
+							extension can be traced indistinctly for 27<sup>mm</sup> and either points upward or
+							continues
+							the line
+							of the <mark class="biology" id="posterior">posterior<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> part of the <mark class="bone"
+								id="spine">vertebral column<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.
+						</p>
+						<p><i><mark class="bone" id="vertebrae">Vertebrae<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>.—</i>Of the <mark class="bone"
+								id="vertebrae">vertebrae<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
+							there
+							are visible seventeen <mark class="biology" id="presacral">presacral<sup><i
+										class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> (fig. 1, V.)
+							and
+							thirteen <mark class="biology" id="caudal">caudal<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark>
+							(fig. 3, V.), all very light
+							<!-- start figure image -->
+							<!-- figure image title -->
+						<h3>FIG. 3.</h3>
+						<!-- image -->
+			
+						<figure>
+							<img src="/images/mtholyoke_Talbot_473_fig3.jpg"
+							alt="Drawing of Podokesurus spine and possible skull fragments." class="figImg">
+							<figcaption>
+								FIG. 3. Caudal <mark class="bone" id="vertebrae">vertebrae<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark> and skill bones (?). X 1/2
+								A, B, C. Bones of the skull (?). D, E, F, G, V. Caudal <mark class="bone"
+									id="vertebrae">vertebrae<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.
+							</figcaption>
+						</figure>
+						and hollow, and some, at least, slightly <mark class="biology" id="concave">concave<sup><i
+									class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> at each end. The
+						presacral <mark class="bone" id="vertebrae">vertebrae<sup><i class="fas fa-bone"
+									id="bone-icon"></i></sup></mark> are slender, the
+						measurements for the sixth <mark class="biology" id="presacral">presacral<sup><i
+									class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> being
+						4<sup>mm</sup>
+						from end to end. A strong, gracefully
+						curved
+						<mark class="bone" id="neural_spines">neural spine<sup><i class="fas fa-bone"
+									id="bone-icon"></i></sup></mark> (fig. 1, N. S.) rises from the <mark class="bone"
+							id="vertebrae">vertebrae<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> in
+						the <mark class="biology" id="posterior">dorsal region<sup><i class="fas fa-microscope"
+									id=“microscope-icon”></i></sup></mark>, about 10<sup>mm</sup> high and
+						12<sup>mm</sup> long at the others and those at the <mark class="biology"
+							id="anterior">anterior<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>
+						end of the column, much stronger. One
+						of the
+						latter measures 10<sup>mm</sup> at the end and the <mark class="biology"
+							id="diameter">diameter<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>
+						through the middle of the <mark class="bone" id="centrum">centrum<sup><i class="fas fa-bone"
+									id="bone-icon"></i></sup></mark> is
+						only a
+						little less. They are not so long, however, measuring only from 12<sup>mm</sup> to
+						13<sup>mm</sup>.
+						One of
+						these <mark class="bone" id="vertebrae">vertebrae<sup><i class="fas fa-bone"
+									id="bone-icon"></i></sup></mark> is shown in <mark class="biology"
+							id="cross-section">cross section<sup><i class="fas fa-microscope"
+									id=“microscope-icon”></i></sup></mark> at a thin edge of
+						the rock and has a <mark class="biology" id="transverse_diameter">transverse diameter<sup><i
+									class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> through
+					</div>
+				</div>
+				<!-- page break 474 -->
+
+
+				<div class="row docPage">
+					<div class="col-sm">
+						<figure>
+							<img src="/images/mtholyoke_Talbot_474.jpg" alt="Sixth page of article.">
+						</figure>
+	
+					</div>
+					<div class="col-sm" id="page474">
+						the cavity of the <mark class="bone" id="centrum">centrum<sup><i class="fas fa-bone"
+									id="bone-icon"></i></sup></mark> of 4<sup>mm</sup> while the height of the cavity is
+						5.5<sup>mm</sup>
+						(fig.4).</p>
+						<p>The caudal <mark class="bone" id="vertebrae">vertebrae<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> are only a little expanded at the
+							ends and are very slender throughout their length.
+							A typical one is 17<sup>mm</sup> long with a <mark class="biology" id="diameter">diameter<sup><i
+										class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> of 4mm at the ends.
+							The <mark class="bone" id="neural_spines">neural spines<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>, if
+							such
+							they are (fig. 3, D.—G.), are of different shapes. These caudal <mark class="bone"
+								id="vertebrae">vertebrae<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> are
+							so
+							nearly of a size, one
+							with another, that
+							<!-- figure image on the left side of the page bordered by text -->
+							<!-- figure title -->
+						<h3>FIG. 4.</h3>
+						<!-- figure image -->
+						<!-- figure caption -->
+						<figure>
+							<img src="/images/mtholyoke_Talbot_474_fig4.jpg" alt="Drawing of Podokesurus hollow vertebrae." class="figImg">
+							<figcaption>
+								FIG. 4. <mark class="biology" id="cross-section">Cross
+									section<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> of
+								cervical
+								vertebra showing hollow construction. X2. C. Cavity of centrum. N. Neural canal.
+							</figcaption>
+						</figure>
+						<!-- end figure image -->
+						there is no apparent tapering of the series and it is not clear which is the <mark class="biology"
+							id="proximal">proximal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>
+						end of the
+						tail nor is it possible, as yet, to estimate its length.</p>
+						<p><i><mark class="bone" id="ribs">Ribs<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>.—</i>Quite a number of <mark class="bone"
+								id="rib">ribs<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>(fig. 1, R.)
+							are
+							visible,
+							all very slender and hollow, but the
+							<mark class="biology" id="proximal">proximal<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> end is not exposed save in one instance
+							where
+							the bone is so broken that the outline is
+							not distinct. Near this <mark class="biology" id="proximal">proximal<sup><i
+										class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end, however,
+							the
+							bone is somewhat <mark class="biology" id="concave">concave<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> and expanded as if it
+							might be
+							<mark class="biology" id="bifurcate">bifurcate<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> (fig.
+							1, R
+							<!-- there's a lil tic mark that I am not sure how to replicate -->). The largest <mark
+								class="bone" id="ribs">rib<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
+							uncovered
+							is
+							52<sup>mm</sup> long and 2<sup>mm</sup> wide toward the <mark class="biology"
+								id="proximal">proximal<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> end, while in no place does the
+							thickness seem to be more than 1<sup>mm</sup>. The most <mark class="biology"
+								id="anterior">anterior<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> of the cervical <mark class="bone"
+								id="vertebrae">vertebrae<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
+							preserved
+							have long <mark class="bone" id="ribs">ribs<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>. These are on another piece of the bowlder and
+							are
+							not figured.
+						</p>
+						<p>Just <mark class="biology" id="anterior">anterior<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> to the <mark class="biology"
+								id="distal">distal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>
+							end of the <mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> there is a small cluster of gently curved
+							abdominal
+							<mark class="bone" id="ribs">ribs<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
+							(fig. 1, A. R.), exceedingly slender and dove-tailed as they lie in the rock, the position
+							due,
+							probably, to slipping. This mass of interlacing <mark class="bone" id="rib">ribs<sup><i
+										class="fas fa-bone" id="bone-icon"></i></sup></mark>covers a
+							space of 40<sup>mm</sup> by
+							23<sup>mm</sup>. There are at lease eleven of these <mark class="bone" id="rib">ribs<sup><i
+										class="fas fa-bone" id="bone-icon"></i></sup></mark>on
+							each side of the median line, the largest of
+							which is 18<sup>mm</sup> long and so small in <mark class="biology"
+								id="diameter">diameter<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> that the bone looks like a mere thread in
+							the
+							rock. Slender as are these <mark class="bone" id="ribs">ribs<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>, they seem to be hollow.
+						</p>
+						<p><i><mark class="bone" id="sternal_elements">Sternal element<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark> (?).—</i>In the center of this mass of
+							abdominal <mark class="bone" id="rib">ribs<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>is a small body that responds to
+							<mark class="biology" id="dilute_hydrochloric">dilute hydrochloric acid<sup><i
+										class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>, as do all of
+							the
+							bones. The part exposed measures 5<sup>mm</sup> by
+							3<sup>mm</sup>. This may be one of the <mark class="bone" id="sternal_elements">sternal
+								elements<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> displaced.
+						</p>
+						<p><i><mark class="bone" id="gastrolith">Gastrolith<sup><i class="fas fa-bone"
+											id="bone-icon"></i></sup></mark>.—</i>Lying 10<sup>mm</sup> away, and still
+							among these <mark class="bone" id="ribs">ribs<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>, is a small piece of
+							quartz, a
+							flat, well-rounded pebble, 1<sup>mm</sup> thick and 10<sup>mm</sup> long. The width exposed
+							is
+							4<sup>mm</sup>, but more of the pebble is embedded in the rock. There are no other pieces of
+							quartz
+							larger than a grain of sand visible in the bowlder, and considering this fact, considering,
+							also, its
+							smooth, polished surface<a id="ln5" href="#fn5">*</a> and its position, the writer concludes
+							that this
+							must
+	
+						<section class="footnotes">
+							<p><a id="fn5" href="#ln5">*</a> Dinosaurian Gastroliths, G.R. Wieland, Science N. S.,
+								xxiii,
+								pp.
+								819-821</p>
+						</section>
+					</div>
+				</div>
+
+				<!-- page break 475 -->
+
+
+
+				<div class="row docPage">
+					<div class="col-sm">
+						<figure>
+							<img src="/images/mtholyoke_Talbot_475.jpg" alt="Seventh page of article.">
+						</figure>
+	
+					</div>
+					<div class="col-sm" id="page475">
+						be a <mark class="bone" id="gastrolith">gastrolith<sup><i class="fas fa-bone"
+									id="bone-icon"></i></sup></mark>. This would seemingly be the first record of <mark
+							class="bone" id="gastrolith">gastroliths<sup><i class="fas fa-bone"
+									id="bone-icon"></i></sup></mark> found with <mark class="biology"
+							id="carnivorous">carnivorous<sup><i class="fas fa-microscope"
+									id=“microscope-icon”></i></sup></mark>
+						dinosaurian remains.</p>
+	
+						<!-- centered italic section title -->
+						<h2>Comparison with other forms.</h2>
+						<p><i><mark class="biology" class="herbivorous">Herbivorous<sup><i class="fas fa-microscope"
+											id=“microscope-icon”></i></sup></mark> dinosaurs.—</i>Compared with
+							<i>Nanosaurus agilis</i> Marsh, the oldest known
+							predentate
+							dinosaur, the following points may be noted:<a id="ln6" href="#fn6">*</a> <i>Points of
+								similarity—</i>
+							The <mark class="bone" id="femur">femur<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> is shorter than the <mark class="bone"
+								id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, the <mark
+								class="bone" id="rib">ribs<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>are
+							very delicate, and
+							the <mark class="biology" id="posterior">posterior<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> extension of the
+							<mark class="bone" id="ilium">ilium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
+							seems to have the same position. <i>Points of dissimilarity—</i> In this form the <mark
+								class="bone" id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is
+							most
+							slender and is nearly straight, while in <i>Nanosaurus</i> it is distinctly curved. In this
+							form, too,
+							the <mark class="bone" id="fourth_trochanter">fourth trochanter<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> is much nearer the <mark class="biology"
+								id="distal">distal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>
+							end of the <mark class="bone" id="femur">femur<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>, the <mark class="bone"
+								id="metatarsal">metatarsals<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
+							are
+							more
+							slender and
+							probably longer, the <mark class="bone" id="humerus">humerus<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> is relatively much smaller,
+							the shaft of the <mark class="bone" id="ischium">ischium<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> is narrower, the <mark class="bone"
+								id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
+							has a long <mark class="biology" id="anterior">anterior<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> extension, and there is no <mark class="bone"
+								id="postpubis">postpubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>.
+						</p>
+						<p>In <i>Laosaurus consors</i> Marsh,<a id="ln7" href="#fn7">†</a> from the <mark class="biology"
+								id="jurassic">Jurassic<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark>, the <mark class="bone"
+								id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is much
+							curved and is more nearly equal in length to the <mark class="bone" id="tibia">tibia<sup><i
+										class="fas fa-bone" id="bone-icon"></i></sup></mark>,
+							while the <mark class="bone" id="fourth_trochanter">fourth trochanter<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> is far up toward the
+							<mark class="biology" id="proximal">proximal<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> end; the <mark class="bone"
+								id="fibula">fibula<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is more
+							bent,
+							curving away from
+							the <mark class="bone" id="tibia">tibia<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>; the <mark class="bone"
+								id="metatarsal">metatarsals<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
+							are
+							very much
+							shorter; the <mark class="bone" id="prepubis">prepubis<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> is short and <mark class="bone"
+								id="humerus">humerus<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> as this
+							form
+							has but the shape is not the same.
+						</p>
+						<p><i>Hypsilophodon foxii</i> Huxley (fig. 5), of the Wealden, England. Here we noticed that the
+							main points of difference are in the length and position of the <mark class="bone"
+								id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, and the
+							presence of a <mark class="bone" id="postpubis">postpubis<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> in
+							<i>Hypsilophoson.</i> In <i>Hypsilophodon</i> the <mark class="bone" id="femur">femur<sup><i
+										class="fas fa-bone" id="bone-icon"></i></sup></mark> is
+							curved, but
+							the <mark class="bone" id="fourth_trochanter">fourth trochanter<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> is situated
+							more nearly as this one is, toward the <mark class="biology" id="distal">distal<sup><i
+										class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> end; the <mark
+								class="bone" id="humerus">humerus<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> is stouter and larger in every way with
+							the <mark class="bone" id="radial_crest">radial crest<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> much farther from the <mark class="biology"
+								id="proximal">proximal<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> end; the <mark class="bone"
+								id="metatarsal">metatarsals<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
+							are
+							much shorter; the <mark class="bone" id="ribs">ribs<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>are very
+							much stronger; the <mark class="bone" id="neural_spines">neural spines<sup><i
+										class="fas fa-bone" id="bone-icon"></i></sup></mark> are of an entirely
+							different
+							shape.
+						</p>
+						<p><i><mark class="biology" id="carnivorous">Carnivorous<sup><i class="fas fa-microscope"
+											id=“microscope-icon”></i></sup></mark> dinosaurs.—Anchisaurus colurus</i>
+							Marsh,<a id="ln8" href="#fn8">‡</a> a very
+							slender,
+							long-limbed <mark class="biology" id="carnivorous">carnivore<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> from the same
+							Connecticut valley <mark class="biology" id="triassic">Triassic<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark>, with which
+							this form seems to
+							compare
+							quite closely in general outline, shows the following differences. There is a decided
+							difference
+							in the
+							relative lengths of the <mark class="bone" id="femur">femur<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> and <mark class="bone" id="tibia">tibia<sup><i
+										class="fas fa-bone" id="bone-icon"></i></sup></mark>, the <mark class="bone"
+								id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> of the
+							large
+							form
+							being much longer than the <mark class="bone" id="tibia">tibia<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>.
+							Marsh points out that the long <mark class="bone" id="femur">femur<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> is found in the
+							larger animals of both <mark class="biology" id="carnivorous">carnivorous<sup><i
+										class="fas fa-microscope" id=“microscope-icon”></i></sup></mark> and <mark
+								class="biology" id="herbivorous">herbivorus<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark>
+							types, while the smaller birdlike forms of both types have the <mark class="bone"
+								id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> longer than
+							the
+							<mark class="bone" id="femur">femur<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>.<a id="ln9" href="#fn9">§</a> This small form
+							certainly
+	
+							<!-- footnotes -->
+						<section class="footnotes">
+							<p><a id="fn6" href="#ln6">*</a> Neubeschreibung des Originals von Nanosaurus agilis Marsh,
+								F.
+								von Huene
+								and R. S. Lull, fig. 1, p. 135.</p>
+							<p><a id="fn7" href="#ln7">†</a>Dinosaurs of North America, O.C. Marsh, pl. LVII.</p>
+							<p><a id="fn8" href="#ln8">‡</a>Ibid., pl. IV.</p>
+							<p><a id="fn9" href="#ln9">§</a>Ibid., p. 201.</p>
+						</section>
+					</div>
+				</div>
+
+				<!-- page break 476 -->
+				<div class="row docPage">
+					<div class="col-sm">
+						<figure>
+							<img src="/images/mtholyoke_Talbot_476.jpg" alt="Eighth page of article.">
+						</figure>
+	
+					</div>
+					<div class="col-sm" id="page476">
+	
+						<!-- full page figure image -->
+						<!-- image heading -->
+						<h3>FIG. 5.</h3>
+						<!-- image caption -->
+						<figure>
+							<img src="/images/mtholyoke_Talbot_476_fig5.jpg" alt="Drawing of dinosaur Hysilophondon foxii." class="figImg">
+							<figcaption>FIG. 5. Restoration of <i>Hysilophodon foxii</i> Huxley, after Marsh x 1/8
+								natural
+								size.
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+
+				<!-- page break 477 -->
+
+				<div class="row docPage">
+					<div class="col-sm">
+						<figure>
+							<img src="/images/mtholyoke_Talbot_477.jpg" alt="Nineth page of article.">
+						</figure>
+	
+					</div>
+					<div class="col-sm" id="page477">
+						helps to confirm his observation. In <i>Anchisaurus</i>, the <mark class="bone"
+							id="femur">femur<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is much bent
+						and the <mark class="bone" id="fourth_trochanter">fourth trochanter<sup><i class="fas fa-bone"
+									id="bone-icon"></i></sup></mark> is
+						high up toward the <mark class="biology" id="proximal">proximal<sup><i class="fas fa-microscope"
+									id=“microscope-icon”></i></sup></mark> end; and all the limb bones are much
+						stronger.
+						The <mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
+						of
+						<i>Anchisaurus</i>
+						is shorter, and runs at almost a right angle to the <mark class="bone" id="spine">vertebral
+							column<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>; nor is it expanded at
+						its
+						<mark class="biology" id="distal">distal<sup><i class="fas fa-microscope"
+									id=“microscope-icon”></i></sup></mark> end,
+						as it is in this form. On the other hand, there is a general similarity in the size of the
+						corresponding
+						<mark class="bone" id="vertebrae">vertebrae<sup><i class="fas fa-bone"
+									id="bone-icon"></i></sup></mark>, though those of the <mark class="biology"
+							id="caudal">caudal<sup><i class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>
+						region of
+						<i>Anchisaurus</i> are not quite so long and slender.</p>
+						<p><i>Compsognathus longipes</i> Wagner (fig. 6), from the <mark class="biology"
+								id="jurassic">Jurassic<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> of Bavaria, corresponds quite
+							closely
+							with this form in length and general proportions of the limbs, in the shape of some of the
+							<mark class="bone" id="neural_spines">neural spines<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>, especially those just anterior to the <mark
+								class="bone" id="scapula">scapular region<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>, and in the general shape of the
+							<mark class="bone" id="ischium">ischium<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>.
+							The <mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> of <i>Compsognathus</i> is much shorter,
+							proportionally, however, makes a larger angle
+							with
+							the <mark class="bone" id="spine">vertebral column<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>, and is much more expanded at its <mark
+								class="biology" id="distal">distal<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> end. The Shaft of the <mark class="bone"
+								id="ischium">ischium<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> is not
+							so
+							slender not so uniform in width.
+						</p>
+	
+						<!-- centered, italicized section title -->
+						<h2>Classification.</h2>
+						<p>No attempt at a definite placing of this fossil will be made in this paper, but certain
+							conclusions
+							reached by the foregoing study will be stated, The fossil is interpreted as that of a
+							carnivorous
+							dinosaur because of the length, shape, and position of the <mark class="bone"
+								id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark> and the
+							absence
+							of a <mark class="bone" id="postpubis">postpubis<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>.
+							Since
+							no <mark class="bone" id="jaw">jaw<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
+							has been found and there is no proof of the presence or absence of an <mark class="bone"
+								id="ascending_process">ascending process<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>
+							from the
+							<mark class="bone" id="astragalus">astragalus<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>, the determination of its position among the
+							dinosaurs depends on the character of
+							the <mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>
+							and the presence or absence of a <mark class="bone" id="postpubis">postpubis<sup><i
+										class="fas fa-bone" id="bone-icon"></i></sup></mark>. The position and length of
+							the
+							<mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>
+							are more nearly
+							like
+							those of the <mark class="biology" id="carnivorous">carnivores<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark> than those of
+							the <mark class="biology" id="herbivorous">herbivores<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark>, and there seems to be no <mark class="bone"
+								id="postpubis">postpubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>. The
+							<mark class="bone" id="ischium">ischium<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> is
+							shaped somewhat like the bone in <i>Scelidosaurus harrisoni</i> Owen, that von Huene
+							describes
+							as the
+							<mark class="bone" id="ischium">ischium<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>, with a query, however, stating that it may be
+							the <mark class="bone" id="pubis">pubis<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>, but not accepting that interpretation
+							because he can find no <mark class="bone" id="obturator_foramen">obturator foramen<sup><i
+										class="fas fa-bone" id="bone-icon"></i></sup></mark>.<a id="ln10" href="#fn10">*</a>
+						</p>
+						<p>The short, slender <mark class="bone" id="humerus">humerus<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark> and the long, straight <mark class="biology"
+								id="hindlimb">hindlimb<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark>
+							bones, together with the well-developed <mark class="bone" id="fourth_trochanter">fourth
+								trochanter<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, are indicative
+							of
+							<mark class="biology" id="bipedalism">bipedalism<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark>. the length of the <mark class="bone"
+								id="tibia">tibia<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>, much
+							greater
+							than that of the <mark class="bone" id="femur">femur<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>,
+							the extreme length of the <mark class="bone" id="metatarsal">metatarsals<sup><i
+										class="fas fa-bone" id="bone-icon"></i></sup></mark>, over half that
+							of the <mark class="bone" id="tibia">tibia<sup><i class="fas fa-bone"
+										id="bone-icon"></i></sup></mark>, and the very light construction of
+							the skeleton, indicate <mark class="biology" id="rapid_locomotion">rapid locomotion<sup><i
+										class="fas fa-microscope" id=“microscope-icon”></i></sup></mark>, which Lull
+							uses as
+							an indication of adaptation to
+							<mark class="biology">clumatic conditions<sup><i class="fas fa-microscope"
+										id=“microscope-icon”></i></sup></mark>, arguing that this animal must have been
+							able
+							to travel fast and
+	
+							<!-- footnotes -->
+						<section class="footnotes"><a id="fn10" href="#ln10">*</a>
+							<p>Ueber die Dinosaurier der Aussereuipaeischen Trias, F. von Huene, p. 57.</p>
+						</section>
+					</div>
+				</div>
+
+				<!-- page break 478 -->
+
+				<!-- full page figure image -->
+				<!-- image heading -->
+				<div class="row docPage">
+					<div class="col-sm">
+						<figure>
+							<img src="/images/mtholyoke_Talbot_478.jpg" alt="Tenth page of article.">
+						</figure>
+	
+					</div>
+					<div id="page478">
+						<h3>FIG. 6.</h3>
+						<!-- image caption -->
+						<figure>
+							<img src="/images/mtholyoke_Talbot_478_fig6.jpg"
+								alt="Drawing of dinosaur Compsognathus longipes." class="figImg">
+							<figcaption>FIG. 6. Restoration of <i>Compsognathus longipes</i> Wagner, after Marsh x 1/4
+								natural size.
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+
+				<!-- page break 479-->
+
+
+				<div class="row docPage">
+					<div class="col-sm">
+						<figure>
+							<img src="/images/mtholyoke_Talbot_479.jpg" alt="Eleventh page of article.">
+						</figure>
+	
+					</div>
+					<div class="col-sm" id="page479">
+						far for water in a <mark class="biology" id="semi-arid">semi-arid<sup><i class="fas fa-microscope"
+									id=“microscope-icon”></i></sup></mark> climate. In support
+						of this interpretation, also
+						may be added barrel's
+						suggestion that the rock in which the fossil is embedded indicates deposition on a <mark
+							class="biology" id="floodplain">floodplain<sup><i class="fas fa-microscope"
+									id=“microscope-icon”></i></sup></mark> in a
+						<mark class="biology" id="semi-arid">semi-arid<sup><i class="fas fa-microscope"
+									id=“microscope-icon”></i></sup></mark>
+						region. It is significant that many of these Connecticut valley sandstones that have dinosaur
+						footprints
+						have also raindrop impressions.</p>
+						<p>Through the courtesy of professor Schuchert the specimen has been send to the Peabody Museum
+							of
+							Yale
+							University for development, where further study will be given it by Professor Lull, to whom
+							my
+							thanks
+							are due for many suggestions in regard to the interpretation of this fossil.</p>
+						<p>Mount Holyoke College, April, 1911</p>
+					</div>
+				</div>
+
+				<!-- Bottom nav buttons-->
+				<div class="row buttons justify-content-center">
+					<div class="col-sm">
+						<button type="button" id="prev">Back</button>
+					</div>
+					<div class="col-sm">
+						<button type="button" id="next">Next</button>
+					</div>
+				</div>
 		</div>
 		<div class="modal" tabindex="-1">
 			<div class="modal-dialog">

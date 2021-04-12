@@ -5,6 +5,26 @@ body{
 figure{
     font-size: small;
 }
+.figImg{
+    height: 40%;
+    width: 40%;
+}
+#next{
+    background-color: hotpink;
+
+}
+#prev{
+    background-color: mediumaquamarine;
+}
+button{
+    cursor: pointer;
+    height: 75px;
+    width: 100px;
+}
+.buttons{
+    background-color: gray;
+    align-content: center;
+}
 h1{
     text-align: center;
 }
@@ -16,13 +36,24 @@ main{
     background-color: rgb(112, 191, 88);
 }
 img{
-    height: 30%;
-    width: 30%;
+    height: 100%;
+    width: 100%;
+}
+.docPage{
+    display: none;
+}
+#pageStart{
+    display: flex;
 }
 nav .row{
     background-color: rgb(148, 146, 147);
     height: 50px;
+    width: 100%;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+  }
 nav .col {
     align-content: center;
 }
@@ -34,8 +65,12 @@ nav .col {
     background-color: rgba(255,235,83, 0.4);
     cursor: pointer;
 }
+.content{
+    padding-top: 50px;
+}
 #article{
     background-color: white;
+    max-width: 85%;
 }
 .coverpage{
     text-align: center;
@@ -66,9 +101,6 @@ hr{
 .close:hover{
     color: royalblue;
     cursor: pointer;
-}
-#article{
-    max-width: 75%;
 }
 #bone-icon{
     /*background-color: rgba(255,235,83,0.4);*/
