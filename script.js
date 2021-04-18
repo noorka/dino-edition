@@ -9,6 +9,7 @@ const bioIcon = document.getElementById("microscope-icon")
 const pageList = document.querySelectorAll(".docPage")
 const nextBtn = document.getElementById("next")
 const prevBtn = document.getElementById("prev")
+const backBtn = document.getElementById("back-btn")
 var glossary;
 var currentPage = 0;
 var navbar = document.getElementById("navigation")
@@ -100,10 +101,10 @@ addEventListenerList(bone,'click', handleClick);
 addEventListenerList(biology,'click', handleClick);
 
 
-window.onscroll = function() {stickyNav()};
+/*window.onscroll = function() {stickyNav()};
 document.addEventListener('DOMContentLoaded', function () {
      allBone.addEventListener('change', function(){handleCheckBox(allBone, bone, "rgba(255,235,83,0.4)");});
-});
+});*/
 document.addEventListener('DOMContentLoaded', function () {
     allBio.addEventListener('change', function(){handleCheckBox(allBio, biology, "rgba(56, 212, 21,0.4)");});
 });
@@ -127,4 +128,7 @@ nextBtn.addEventListener('click', function() {
         document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
+});
+backBtn.addEventListener('click', function() {
+    location.href = "index.html";
 });
