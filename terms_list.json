@@ -238,5 +238,15 @@
             "term": "Deposition",
             "definition": "Depositing or placing an item in a new location, usually by an outside force."
         }
+    },
+    "notes":{
+        "presentation":{
+            "term": "First Presentation",
+            "definition": "NOTES"
+        },
+        "photos":{
+            "term": "Photographing Bones",
+            "definition": "NOTES"
+        }
     }
 }

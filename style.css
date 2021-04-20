@@ -2,10 +2,17 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(112, 191, 88);
 }
+#body-home{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
 figure{
     font-size: small;
 }
-
+#back-btn{
+    text-decoration: none;
+    background-color: lightseagreen;
+}
 .in-progress{
     align-content: center;
 }
@@ -61,6 +68,9 @@ button{
     height: 75px;
     width: 100px;
 }
+.fa-lightbulb{
+    color: orange;
+}
 .buttons{
     background-color: gray;
     align-content: center;
@@ -72,8 +82,8 @@ h2{
     text-align: center;
     font-style: italic;
 }
-main{
-    background-color: rgb(112, 191, 88);
+h3{
+    text-align: center;
 }
 img{
     height: 100%;
@@ -81,6 +91,7 @@ img{
 }
 .docPage{
     display: none;
+    margin-top: 10px;
 }
 #pageStart{
     display: flex;
@@ -126,15 +137,24 @@ nav .col {
 }
 .coverpage{
     text-align: center;
-    background-color: lightblue;
+    background-color: rgb(150,137,124);
+    height: 70%;
+}
+#cover{
+    padding-top: 150px;
+}
+#construction{
+    max-height: 25%;
+    max-width: 25%;
+    
 }
 .footnotes{
     font-size: small;
 }
 hr{
-    border: none;
+    width: 300px;
+    align-content: center;
     border-bottom: 200px;
-    background: green;
 }
 .nav-itme{
     margin: 100px;
