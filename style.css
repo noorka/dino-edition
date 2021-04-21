@@ -9,9 +9,17 @@ body{
 figure{
     font-size: small;
 }
-#back-btn{
-    text-decoration: none;
-    background-color: lightseagreen;
+.btn-primary{
+    color: white;
+    background-color: rgb(51, 159, 125);
+    border: none;
+    width: 10%;
+    margin: 5px;
+
+}
+.btn-primary:hover{
+    color: rgb(255, 177, 44);
+    background-color: rgb(68, 177, 138);
 }
 .in-progress{
     align-content: center;
@@ -57,11 +65,11 @@ figure{
     width: 50%;
 }
 #next{
-    background-color: hotpink;
+    background-color: rgb(255, 177, 44);
 
 }
 #prev{
-    background-color: mediumaquamarine;
+    background-color: rgb(255, 177, 44);
 }
 button{
     cursor: pointer;
@@ -114,6 +122,7 @@ img{
 }
 nav{
     background-color: gray;
+    padding-top: 10px;
 }
 .sticky {
     position: fixed;
@@ -124,11 +133,9 @@ nav .col {
 }
 .biology{
     background-color: rgba(56, 212, 21, 0.4);
-    cursor: pointer;
 }
 .bone{
     background-color: rgba(255,235,83, 0.4);
-    cursor: pointer;
 }
 #article{
     background-color: white;
@@ -156,8 +163,10 @@ hr{
     align-content: center;
     border-bottom: 200px;
 }
-.nav-itme{
-    margin: 100px;
+.nav-item{
+    height: 70px;
+    width: 120px;
+    text-align: center;
 }
 .modal{
     
@@ -177,7 +186,7 @@ hr{
     float: right;
 }
 .close:hover{
-    color: royalblue;
+    color: rgb(255, 177, 44);
     cursor: pointer;
 }
 #bone-icon{
@@ -198,7 +207,6 @@ hr{
     display: inline-block;
     width: 60px;
     height: 34px;
-    padding-bottom: 3px;
 }
 .switch input{
     opacity: 0;
@@ -253,4 +261,25 @@ input:checked + .slider:before {
     background-color: black;
     filter: alpha(opacity=30);
     opacity: 0.3;
+}
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40%;
+    background-color:#0C9;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    }
+    
+.my-float{
+    margin-top:6px;
+    }
+.fr{
+    right:3%;
+}
+.fl{
+    left:3%;
 }

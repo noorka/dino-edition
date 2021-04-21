@@ -4,6 +4,7 @@
 <head>
 	<title>Dino in the Hill</title>
 	<link rel="icon" type="image/png" href="/images/dinosaur.png"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- id="bio-slide" id="bone-slide" id="home"-->
 	<!--<div>Icons made by <a href="" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
 
@@ -15,25 +16,31 @@
 
 <body>
 	<nav class="nav sticky-top" id="navigation">
-				<a class="nav-item" href="home.html"><i class="fas fa-home fa-3x" id="home-icon"></i></a>
-				<div class="sliderholder">
+				<a class="nav-item" href="home.html"><i class="fas fa-home fa-4x" id="home-icon"></i></a>
+				
 					<span class="nav-item">
-						Bone Terms<br>
+						<label>Bone Terms</label>
 						<label class="switch">
 							<input type="checkbox" id="boneALL">
 							<span class="slider round"></span>
 						</label>
 					</span>
 					<span class="nav-item">
-						Biology Terms<br>
+						<label>Biology Terms</label>
 						<label class="switch">
 							<input type="checkbox" id="bioALL">
 							<span class="slider round"></span>
 						</label>
 					</span>
-				</div>
+				
 	</nav>
 	<main class="content">
+		<a href="#" class="float fr" id="next">
+			<i class="fas fa-arrow-circle-right fa-3x my-float"></i>
+			</a>
+		<a href="#" class="float fl" id="prev">
+				<i class="fas fa-arrow-circle-left fa-3x my-float"></i>
+				</a>
 		<!-- outer cover of this staple bound copy of the article, there are some hand written notes likely the catalog numbers -->
 		<div class="container" id="article">
 			<!-- coverpage (dust cover) -->
@@ -272,7 +279,7 @@
 					<div class="col-sm" id="page471">
 						<span> <i>M. Talbot—Podokesaurus holyokensis.</i> 471</span>
 	
-						<h2>Description</h2>
+						<h2>Description.</h2>
 						<p>In the description which follows these features are to be noted: Light construction—hollow
 							bones;
 							slender, straight <mark class="bone" id="femur">femur<sup><i class="fas fa-bone"
@@ -288,7 +295,7 @@
 										id="bone-icon"></i></sup></mark>;
 							narrow shaft of <mark class="bone" id="ischium">ischium<sup><i class="fas fa-bone"
 										id="bone-icon"></i></sup></mark>; great length of <mark class="bone"
-								id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></markc>;
+								id="pubis">pubis<sup><i class="fas fa-bone" id="bone-icon"></i></sup></mark>;
 								length of <mark class="bone" id="vertebrae">vertebrae<sup><i class="fas fa-bone"
 											id="bone-icon"></i></sup></mark>.
 						</p>
@@ -1118,16 +1125,6 @@
 							thanks
 							are due for many suggestions in regard to the interpretation of this fossil.</p>
 						<p>Mount Holyoke College, April, 1911</p>
-					</div>
-				</div>
-
-				<!-- Bottom nav buttons-->
-				<div class="row buttons justify-content-center">
-					<div class="col-sm">
-						<button type="button" id="prev">Back</button>
-					</div>
-					<div class="col-sm">
-						<button type="button" id="next">Next</button>
 					</div>
 				</div>
 		</div>
