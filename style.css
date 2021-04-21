@@ -162,7 +162,11 @@ hr{
 .modal{
     
     background: rgba(0, 0, 0, 0.3);
-    
+}
+.sliderholder{
+    position: absolute;
+    width: 300px;
+    height: 30px;
 }
 .modal-dialog{
     background-color: white;
