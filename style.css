@@ -6,23 +6,17 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightgrey;
 }
+.docPage{
+    display: none;
+    margin-top: 10px;
+}
+/* Formatting figure images */
 figure{
     font-size: small;
 }
-.btn-primary{
-    color: white;
-    background-color: rgb(51, 159, 125);
-    border: none;
-    width: 10%;
-    margin: 5px;
-
-}
-.btn-primary:hover{
-    color: rgb(255, 177, 44);
-    background-color: rgb(68, 177, 138);
-}
-.in-progress{
-    align-content: center;
+img{
+    height: 100%;
+    width: 100%;
 }
 #figImg1{
     height: 70%;
@@ -60,29 +54,25 @@ figure{
     height: 100%;
     width: 100%;
 }
-.inline-img{
-    display: inline-block;
-    width: 50%;
-}
-#next{
-    background-color: rgb(255, 177, 44);
-
-}
-#prev{
-    background-color: rgb(255, 177, 44);
-}
+/*Formatting buttons*/
 button{
     cursor: pointer;
     height: 75px;
     width: 100px;
 }
-.fa-lightbulb{
-    color: orange;
+.btn-primary{
+    color: white;
+    background-color: rgb(51, 159, 125);
+    border: none;
+    width: 10%;
+    margin: 5px;
+
 }
-.buttons{
-    background-color: gray;
-    align-content: center;
+.btn-primary:hover{
+    color: rgb(255, 177, 44);
+    background-color: rgb(68, 177, 138);
 }
+/*Formatting headers*/
 h1{
     text-align: center;
 }
@@ -93,43 +83,13 @@ h2{
 h3{
     text-align: center;
 }
-img{
-    height: 100%;
-    width: 100%;
-}
-.docPage{
-    display: none;
-    margin-top: 10px;
-}
+/* Misc Styling */
 #pageStart{
     display: flex;
-}
-#bone-slide{
-    position: fixed;
-    top: 11px;
-    margin-left: 20px;
-}
-#bio-slide{
-    position: fixed;
-    top: 11px;
-    left: 205px;
-    margin-left: 20px;
-}
-#home{
-    margin-left: 20px;}
-.navbar-text{
-    margin-bottom: 1rem;
 }
 nav{
     background-color: gray;
     padding-top: 10px;
-}
-.sticky {
-    position: fixed;
-    top: 0;
-  }
-nav .col {
-    align-content: center;
 }
 .biology{
     background-color: rgba(56, 212, 21, 0.4);
@@ -141,6 +101,14 @@ nav .col {
     background-color: white;
     max-width: 85%;
     padding-top: 10px;
+}
+#about{
+    background-color: white;
+    max-width: 60%;
+    padding-top: 10px;
+}
+#info{
+    margin: 3%;
 }
 .coverpage{
     text-align: center;
@@ -159,8 +127,8 @@ nav .col {
     font-size: small;
 }
 hr{
-    width: 300px;
-    align-content: center;
+    width:50%;
+    margin:0 auto;
     border-bottom: 200px;
 }
 .nav-item{
@@ -169,7 +137,6 @@ hr{
     text-align: center;
 }
 .modal{
-    
     background: rgba(0, 0, 0, 0.3);
 }
 .sliderholder{
@@ -189,16 +156,18 @@ hr{
     color: rgb(255, 177, 44);
     cursor: pointer;
 }
+/*Formatting icons*/
 #bone-icon{
-    /*background-color: rgba(255,235,83,0.4);*/
     font-size: 10px;
 }
 #microscope-icon{
-    /*background-color: rgba(56, 212, 21, 0.4);*/
     font-size: 7px;
 }
 #home-icon{
     color: rgb(2, 179, 78);
+}
+.fa-lightbulb{
+    color: orange;
 }
 
 /* Got this slider from  https://www.w3schools.com/howto/howto_css_switch.asp */
@@ -255,13 +224,7 @@ input:checked + .slider:before {
 .slider.round:before{
     border-radius: 50%;
 }
-#opaque{
-    z-index:.5;
-    display: none;
-    background-color: black;
-    filter: alpha(opacity=30);
-    opacity: 0.3;
-}
+/* Floating side arrow icons */
 .float{
     position:fixed;
     width:60px;
@@ -282,4 +245,11 @@ input:checked + .slider:before {
 }
 .fl{
     left:3%;
+}
+#next{
+    background-color: rgb(255, 177, 44);
+
+}
+#prev{
+    background-color: rgb(255, 177, 44);
 }

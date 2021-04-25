@@ -2,6 +2,7 @@ const modal = document.querySelector(".modal")
 const closeBtn = document.querySelector(".btn-close")
 const bone = document.querySelectorAll(".bone")
 const biology = document.querySelectorAll(".biology")
+const notes = document.querySelectorAll(".notes")
 const allBone = document.getElementById("boneALL")
 const allBio = document.getElementById("bioALL")
 const boneIcon = document.getElementById("bone-icon")
@@ -12,8 +13,7 @@ const prevBtn = document.getElementById("prev")
 const backBtn = document.getElementById("back-btn")
 var glossary;
 var currentPage = 0;
-var navbar = document.getElementById("navigation")
-var sticky = navbar.offsetTop;
+
 
 
 function addEventListenerList(list, event, fn){
@@ -89,16 +89,10 @@ function loadJSON(callback) {   
     };
     xobj.send(null);  
 }
-function stickyNav() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
 
 addEventListenerList(bone,'click', handleClick);
 addEventListenerList(biology,'click', handleClick);
+addEventListenerList(notes,'click', handleClick);
 
 
 document.addEventListener('DOMContentLoaded', function () {
