@@ -38,7 +38,7 @@
         },
         "radial_crest": {
             "term": "Radial Crest",
-            "definition": "definition!!!"
+            "definition": "The widest point at the center of the radius bone."
         },
         "scapula": {
             "term": "Scapula",
@@ -110,7 +110,7 @@
         },
         "median_sulcus": {
             "term": "Median Sulcus",
-            "definition": "definition!!!"
+            "definition": "A grove in the skull where a vein or part of the brain would sit."
         },
         "neural_spines": {
             "term": "Neural Spines",
@@ -184,7 +184,7 @@
         },
         "cross_section": {
             "term": "Cross-Section",
-            "definition": "definition!!!"
+            "definition": "In anatomy, cutting across a specimen on the transverse (wide) plane. This helps to see what a specimen looks like across the middle."
         },
         "bifurcate": {
             "term": "Bifurcate",
@@ -224,7 +224,7 @@
         },
         "climatic_conditions": {
             "term": "Climatic Conditions",
-            "definition": "definition!!!"
+            "definition": "The type of climate in a specific place. A climate is the average weather in one place over a long period of time."
         },
         "semi-arid": {
             "term": "Semi-Arid",
@@ -239,24 +239,24 @@
             "definition": "Depositing or placing an item in a new location, usually by an outside force."
         }
     },
-    "notes":{
-        "presentation":{
+    "notes": {
+        "presentation": {
             "term": "First Presentation",
             "definition": "Before writing this article, Dr. Talbot presented her discovery to the Paleontological Society. The Society still exists today and is a group where paleontologists can meet other paleontologists to learn about what kinds of discoveries are being made. The Society hosts a meeting every year where they can decide who will be in charge for the next year as well as share some of the new discoveries. \r\tDr. Talbot's presentation was summarized in their meeting notes as:  \"A NEW DINOSAUR FROM THE TRIASSIC OF THE CONNECTICUT VALLEY BY MIGNON TALBOT \r Presented without manuscript and illustrated with lantern slides; 10 minutes. Discussed by S.W. Williston.\" Presenting her work to lots of other scientists was important because it helped her figure out the dinosaur was not an herbivore like she originally thought, but actually a carnivore. It was not until after this presentation that she was encouraged to write this article."
         },
-        "photos":{
+        "photos": {
             "term": "Photographing Bones",
             "definition": "Knowing where a fossil came from and where the bones lay in the rock can help scientists learn more about its life and death. Before the camera was invented, paleontologists would have to make detailed drawings of the fossils they found before the bones could be removed from the ground. By 1910 the portable film camera invented by George Eastman called the Kodak was widely used making it possible to photograph, rather than sketch, fossils."
         },
-        "diagrams":{
+        "diagrams": {
             "term": "Drawing Diagrams",
             "definition": "An important part of scientific discovery is taking notes and making diagrams. Even though Dr. Talbot's team took pictures of the fossil they also drew diagrams to help identify all the bones."
         },
-        "museum":{
+        "museum": {
             "term": "Yale Peabody Museum",
             "definition": "Since Yale University is a much bigger school than Mount Holyoke College it has more money and resources for science. Dr. Talbot got her PhD in geology from Yale University so she was able to work with professors she knew and tools she didn't have where she worked. At Yale, they made a cast of the fossil and created a half sized model. Doing this was very important because there was a fire at Mount Holyoke College in 1916 that burned down the geology building and they were not able to find the Podokesaurus bones. If they did not have the copy at the Yale Peabody Museum we would have no physical record of the fossil."
         },
-        "mentor":{
+        "mentor": {
             "term": "Dr. Talbot's Mentor",
             "definition": "Professor Lull was one of Mignon's mentors when she was a student at Yale. When she brought the fossil to the Yale Peabody Museum for further it was Professor Lull that encouraged her to write this article. \rDr. Talbot discusses this in an interview about her fossil find saying: \"Professor Lull said I must give a paper. I said, 'I can't Don't know a thing about dinosaurs.' Professor Lull said, 'Well, study them up then. You've got to describe it.'\""
         }
