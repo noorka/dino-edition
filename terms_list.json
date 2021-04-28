@@ -38,7 +38,7 @@
         },
         "radial_crest": {
             "term": "Radial Crest",
-            "definition": "definition!!!"
+            "definition": "The widest point at the center of the radius bone."
         },
         "scapula": {
             "term": "Scapula",
@@ -110,7 +110,7 @@
         },
         "median_sulcus": {
             "term": "Median Sulcus",
-            "definition": "definition!!!"
+            "definition": "A grove in the skull where a vein or part of the brain would sit."
         },
         "neural_spines": {
             "term": "Neural Spines",
@@ -184,7 +184,7 @@
         },
         "cross_section": {
             "term": "Cross-Section",
-            "definition": "definition!!!"
+            "definition": "In anatomy, cutting across a specimen on the transverse (wide) plane. This helps to see what a specimen looks like across the middle."
         },
         "bifurcate": {
             "term": "Bifurcate",
